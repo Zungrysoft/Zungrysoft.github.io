@@ -1,4 +1,13 @@
+const images = require.context('../../public/images', true);
 
+function getImage(str) {
+    try {
+        return images("./" + str)
+    }
+    catch {
+        return ""
+    }
+}
 
 function ProjectPage({ data }) {
     return (
@@ -10,8 +19,14 @@ function ProjectPage({ data }) {
                     <div>
                         <h4>{val.title}</h4>
                         <p>{val.description}</p>
+                        {val.links ? val.links.map((link, index) =>
+                            <div>
+                                <a target="blank" rel="noopener noreferrer" href={link.url}>{link.text}</a>
+                            </div>
+                        ):<div/>}
+
                     </div>
-                    <img src="https://www.w3schools.com/images/img_fullaccess_300.png"/>
+                    <img className="sideImage" src={getImage(val.image)}/>
                 </div>
             )}
         </div>

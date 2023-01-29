@@ -80,6 +80,7 @@ p {
 a {
     font-size: 18px;
     color: #bebdb2;
+    margin: 10px;
 }
 
 h2 {
@@ -107,4 +108,9 @@ h4 {
 
 img {
     align-self: start;
+}
+
+.sideImage {
+    align-self: start;
+    max-width: 33%;
 }
