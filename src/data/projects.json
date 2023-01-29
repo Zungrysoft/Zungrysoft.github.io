@@ -1,0 +1,65 @@
+{
+    "pages": [
+        {
+            "tab": "Quake",
+            "title": "Quake Level Design and Modding",
+            "description": "Levels and other projects I have created for the iD Software's 1996 first person shooter game. Levels were constructed in either JACK or Trenchbroom",
+            "projects": [
+                {
+                    "title": "Ulgreth's Labyrinth",
+                    "image": "",
+                    "description": "SM219 speedmap made in 4 days with a limit of 40 monsters or fewer. I had always intended to make puzzle-oriented Quake map and this speedmap event seemed like the perfect opportunity. In this level, you must avoid combat and manipulate the environment to deal with monsters in other ways.\n\nI purposely used Death Knights as the first few enemies the player encounters, since they are particularly difficult monsters to kill with only the Axe. This trains the player to look for alternate avenues to get past obstacles."
+                },
+                {
+                    "title": "Devil Monster / The Fuse is Lit",
+                    "image": "",
+                    "description": "As my submission to the second community Modding Jam, I made a brand custom monster called the Devil. It is completely original monster start-to-finish with a custom model, animations, skinning, and AI. It was made with three design goals in mind:\n1) To pose a credible threat to the player even when it has the low ground.\n2) To not chase the player directly and instead try to keep its distance.\n3) To be able to hit the player from unique angles, including from behind other monsters.\n\nThe Fuse is Lit was the demo map I packaged in with my submission to show off the new enemy. It was designed to show off the monster's unique capabilities in a multitude of different ways while still playing like a classic Quake level should.\n\nYou can watch a playthrough of the level here:"
+                },
+                {
+                    "title": "The Rocket Crusade / SM216",
+                    "image": "",
+                    "description": "I hosted the SM216 speedmap event based on an original idea: The first two days of the event are spent just making level textures, then the remainder of the event is spent making the map with the rule that players must only use level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called \"The Rocket Crusade\". I had taken inspiration from another mapmaker named Pinchy who was known for making very open-ended maps. I made a similar design where the goal is to explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry."
+                },
+                {
+                    "title": "Downfire",
+                    "image": "",
+                    "description": "SM198 speedmap made in about two weeks with the limitation that the map must no more than 768x768 units wide horizontally. The map could, however, be as tall as it wanted. In fact, my map takes up the entire vertical space a Quake map is allowed without expanded limits.\n\nThe map is essentially one long \"Romero Lift\" (called as such because of its presence at the end of e2m6, a map made by John Romero.) The level constantly spawns new enemies above the player that they must fend off until the laser-grid floor lowers down to next checkpoint. All the while, the level geometry is changing as new obstacles phase through the floor and into the immediate playable space. In order to pace the level out, the elevator stops twice during the level. The player must go through a teleporter taking them to a side room where they must beat a smaller room with a switch that re-enables the elevator. These side rooms are much more slow-paced in order to give the player a break from the frantic action of the elevator sections.\n\nThe final section of the level makes the greatest use of the changing obstacles by making the level constantly morph and shift until a well-times Quad Damage froms from the ceiling. My favorite part is where the level splits into four divided sections while monsters continue to spawn in the other three. The monsters continue to build up until the walls disappear completely and the player must fight all of them with their waning Quad Damage.\n\nThis is my personal favorite level I have designed for Quake."
+                },
+                {
+                    "title": "Crimson Consequence",
+                    "image": "",
+                    "description": "SM195 speedmap made in about 24 hours. It is the first Quake map I have released. The map is very simple in its structure, essentially being a playground of twelve different base ideas. The map gives the player a lot of freedom on how they want to navigate it. The map even spawns the player in a room containing four powerups to use at their leisure as they complete the map."
+                }
+            ]
+        },
+        {
+            "tab": "Minecraft",
+            "title": "Minecraft Projects",
+            "description": "Projects I've made for Minecraft, the 2011 Game/Creativity Toy",
+            "projects": [
+                {
+                    "title": "ItemBuilder / ItemBuilder Studio",
+                    "image": "",
+                    "description": "ItemBuilder is a datapack/devkit for Minecraft mapmakers that allows the design of custom items using a system of effects and conditions. You can define a recursive JSON structure in item data to make the item have certain effects but only under certain conditions.The logic is designed to be freeform enough to make a wide variety of common item designs possible while still being very user-friendly if using ItemBuilder Studio.\n\nItemBuilder Studio is a React website that generates item /give commands. Since the recursive JSON structure can be a real pain to write by hand, this website makes things easy with convenient dropdowns and a much more appealing way to visualize the logic. It also includes other useful features for custom item design.\n\nA previous version of the website was made using Flutter. It was scrapped for the 2.0 version of ItemBuilder because Flutter's web export is very poorly optimized and I wanted to learn React.\n\nCheck out the website here: https://zungrysoft.github.io/ItemBuilderStudio/"
+                },
+                {
+                    "title": "The Escher Dimension",
+                    "image": "",
+                    "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. I worked on this project almost every day for nearly a year. It is definitely the largest-scale hobby project I have ever finished.\n\nWriting code in Minecraft datapacks is very wonky. mcfunction feels more like assembly code than any C-style language. It was a fun and often frustrating experience to try to get the features I wanted working."
+                }
+            ]
+        },
+        {
+            "tab": "Team Fortress 2",
+            "title": "Team Fortress 2 Level Design",
+            "description": "Maps and other assets I have created for the 2007 team shooter game Team Fortress 2.",
+            "projects": [
+                {
+                    "title": "Watercourse",
+                    "image": "",
+                    "description": "Watercourse is a 3CP Attack/Defend map. Download it here: https://tf2maps.net/downloads/watercourse.14833/"
+                }
+            ]
+        }
+    ]
+}
