@@ -3,7 +3,7 @@
         {
             "tab": "Quake",
             "title": "Quake Level Design and Modding",
-            "description": "Levels and other projects I have created for the iD Software's 1996 first person shooter game. Levels were constructed in either JACK or Trenchbroom",
+            "description": "Levels and other projects I have created for iD Software's 1996 first person shooter game. Levels were constructed in either JACK or Trenchbroom",
             "projects": [
                 {
                     "title": "Ulgreth's Labyrinth",
@@ -19,32 +19,66 @@
                 {
                     "title": "Devil Monster / The Fuse is Lit",
                     "image": "devil.png",
-                    "description": "As my submission to the second community Modding Jam, I made a custom monster called the Devil. It is a completely original monster start-to-finish with custom modeling, animations, skinning, and AI. It was made with three design goals in mind:\n1) To pose a credible threat to the player even when it has the low ground.\n2) To not chase the player directly and instead try to keep its distance.\n3) To be able to hit the player from unique angles, including from behind other monsters.\n\nThe Fuse is Lit was the demo map I packaged in with my submission to show off the new enemy. It was designed to show off the monster's unique capabilities in a multitude of different ways while still playing like a classic Quake level should.",
+                    "description": "As my submission to the second community Modding Jam, I made a custom monster called the Devil. It is a completely original monster start-to-finish with custom modeling, animations, skinning, and AI. It was made with three design goals in mind:\n1) To pose a credible threat to the player even when it has the low ground.\n2) To be able to hit the player from unique angles, including from behind other monsters.\n3) To not chase the player directly and instead try to keep its distance.\n\nThe Fuse is Lit was the demo map I packaged in with my submission to show off the new enemy. It was designed to show off the monster's unique capabilities in a multitude of different ways while still playing like a classic Quake level should.",
                     "links": [
                         {
                             "text": "Download the pack here",
                             "url": "https://www.quaddicted.com/reviews/modjam2_ai.html"
                         },
                         {
-                            "text": "Watch a playthrough of the level here",
+                            "text": "Watch a playthrough by Greenwood here",
                             "url": "https://youtu.be/7QnyRwA9H7M?t=23"
                         }
                     ]
                 },
                 {
                     "title": "SM216 / The Rocket Crusade",
-                    "image": "",
-                    "description": "I hosted the SM216 speedmap event based on an original idea: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map with the rule that players could only use level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called \"The Rocket Crusade\". I had taken inspiration from another mapmaker named Pinchy who was known for making very open-ended maps. I made a similar design where the goal is to explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry."
+                    "image": "rocket_crusade.png",
+                    "description": "I hosted the SM216 speedmap event based on an original idea: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map with the rule that players could only use level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called \"The Rocket Crusade\". I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
+                    "links": [
+                        {
+                            "text": "Download the pack here",
+                            "url": "https://www.quaddicted.com/reviews/sm216_v2.html"
+                        },
+                        {
+                            "text": "Watch a playthrough by QuakeFreak here",
+                            "url": "https://www.youtube.com/watch?v=bFsaNWWVuUU"
+                        }
+                    ]
                 },
                 {
                     "title": "Downfire",
-                    "image": "",
-                    "description": "SM198 speedmap made in about two weeks with the limitation that the map must no more than 768x768 units wide horizontally. The map could, however, be as tall as it wanted. In fact, my map takes up the entire vertical space a Quake map is allowed without expanded limits.\n\nThe map is essentially one long \"Romero Lift\" (called as such because of its presence at the end of e2m6, a map made by John Romero.) The level constantly spawns new enemies above the player that they must fend off until the laser-grid floor lowers down to next checkpoint. All the while, the level geometry is changing as new obstacles phase through the floor and into the immediate playable space. In order to pace the level out, the elevator stops twice during the level. The player must go through a teleporter taking them to a side room where they must beat a smaller room with a switch that re-enables the elevator. These side rooms are much more slow-paced in order to give the player a break from the frantic action of the elevator sections.\n\nThe final section of the level makes the greatest use of the changing obstacles by making the level constantly morph and shift until a well-times Quad Damage froms from the ceiling. My favorite part is where the level splits into four divided sections while monsters continue to spawn in the other three. The monsters continue to build up until the walls disappear completely and the player must fight all of them with their waning Quad Damage.\n\nThis is my personal favorite level I have designed for Quake."
+                    "image": "downfire.png",
+                    "description": "SM198 speedmap made in about two weeks with the limitation that the map could be no more than 768x768 units wide horizontally. The map could, however, be as tall as it wanted. In fact, my map takes up the entire vertical space a Quake map is allowed without expanded limits.\n\nThe map is essentially one long \"Romero Lift\" (a slow moving platform that you must ride while monsters drop in from above.) It constantly spawns new enemies above the player that they must fend off until the laser-grid floor lowers down to next checkpoint. All the while, the level geometry is changing as new obstacles phase through the floor and into the immediate playable space. In order to pace the level out, the elevator stops twice during the level. The player must go through a teleporter taking them to a side room where they must press a switch that re-enables the elevator. These side rooms are much slower paced in order to give the player a break from the frantic action of the elevator sections.\n\nThe third and final section of the elevator makes the greatest use of the changing obstacles by making the level constantly morph and shift until a well-timed Quad Damage drops from the ceiling. At the end, the level splits into four divided sections while monsters continue to spawn in the other three. The monsters continue to build up until the walls disappear completely and the player must fight all of them with their waning Quad Damage.\n\nThis is my personal favorite level I have designed for Quake.",
+                    "links": [
+                        {
+                            "text": "Download the pack here",
+                            "url": "https://www.quaddicted.com/reviews/sm198.html"
+                        },
+                        {
+                            "text": "Download the updated version from Epochs of Enmity here",
+                            "url": "https://www.quaddicted.com/reviews/eoe.html"
+                        },
+                        {
+                            "text": "Watch a playthrough by Andrew Yoder here",
+                            "url": "https://www.twitch.tv/videos/446631901?t=00h47m09s"
+                        }
+                    ]
                 },
                 {
                     "title": "Crimson Consequence",
-                    "image": "",
-                    "description": "SM195 speedmap made in about 24 hours. It is the first Quake map I have released. The map is very simple in its structure, essentially being a playground of twelve different base ideas. The map gives the player a lot of freedom on how they want to navigate it. The map even spawns the player in a room containing four powerups to use at their leisure as they complete the map."
+                    "image": "crimson_consequence.png",
+                    "description": "SM195 speedmap made in 24 hours. It is the first Quake map I have released. The map is very simple in its structure, essentially being a playground of twelve different base ideas. It gives the player a lot of freedom on how they want to navigate it and even spawns the player in a central room containing four powerups to use at their leisure.",
+                    "links": [
+                        {
+                            "text": "Download the pack here",
+                            "url": "https://www.quaddicted.com/reviews/sm195_pack.html"
+                        },
+                        {
+                            "text": "Watch a playthrough by JCR here",
+                            "url": "https://www.youtube.com/watch?v=1kzfdWgudRI"
+                        }
+                    ]
                 }
             ]
         },
