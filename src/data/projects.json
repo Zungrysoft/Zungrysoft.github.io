@@ -30,6 +30,33 @@
                             "url": "https://github.com/Zungrysoft/SongSketchStudio"
                         }
                     ]
+                },
+                {
+                    "title": "Mobile MIDI",
+                    "image": "mobile_midi.png",
+                    "description": "Mobile MIDI is a mobile app for using your phone as a gyroscopic MIDI controller. You can tilt your phone left and right to select notes and press on the bottom half of the screen to play them until you release your finger. It has many options for customizing the available MIDI controls and how the controller will respond to various actions. You can set it up to play basic piano sounds or you can plug it into a MIDI device (such as a synthesizer) and control it.\n\nDeveloped for my mobile development class in college. Written in Flutter.",
+                    "links": [
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/Mobile-Midi"
+                        }
+                    ]
+                },
+                {
+                    "title": "PlayBuddy",
+                    "image": "",
+                    "description": "PlayBuddy (I did not pick the name) is a web app for finding ongoing and upcoming events in your local area. It features the ability to post new events and filter events by date and proximity. The proximity filter uses a dataset of zip codes to determine distance.\n\nDeveloped for my software engineering class in college on a team of five people. I did most of the backend, which was made in express.js.",
+                    "links": [
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/ChicoState/PlayBuddy"
+                        }
+                    ]
+                },
+                {
+                    "title": "Let's Meet",
+                    "image": "",
+                    "description": "Let's Meet is a simple web app for agreeing on a time to hold a meetup. The host can select available dates and times from a calendar and participants can select when they are available from those times. The calendar has a heatmap visualization to show which times are the most available and will specially mark times where everyone is available.\n\nDeveloped for my web development class in college on a team of two. Written in Django."
                 }
             ]
         },
@@ -286,6 +313,24 @@
                         {
                             "text": "Download it here",
                             "url": "https://tf2maps.net/downloads/watercourse.14833/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tab": "Music",
+            "title": "Music and Production",
+            "description": "",
+            "projects": [
+                {
+                    "title": "WATMM Competition Submissions",
+                    "image": "watmm.png",
+                    "description": "These are the submissions I have made to the We Are the Music Makers monthly themed competition. They're not mixed very well since I was (and still am) pretty new to audio mixing and production. All live instruments are played by myself. All other instruments are MIDI.\n\nMy favorite tracks of the collection are The Spring Market Carnival, Hill Top Zone, and The Tin Street Busker.",
+                    "links": [
+                        {
+                            "text": "Listen here",
+                            "url": "https://soundcloud.com/zungrysoft"
                         }
                     ]
                 }
