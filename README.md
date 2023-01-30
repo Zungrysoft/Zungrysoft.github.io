@@ -1,6 +1,6 @@
-# ItemBuilder v2 Website
+# Zungrysoft Entertainment Website
 
-This website is designed to provide a way to conveniently and visually create ItemBuilder items. It is hosted here: https://zungrysoft.github.io/ItemBuilderStudio/
+This is my portfolio website. It is hosted here: https://zungrysoft.github.io/
 
 ## To run website
 

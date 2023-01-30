@@ -8,7 +8,7 @@
                 {
                     "title": "Organ-ized Crime",
                     "image": "organized_crime.png",
-                    "description": "Ludum Dare 52 Jam entry. Scored 77th overall and 25th in humor out of 1144 total submissions.\n\nIt’s great to volunteer to donate your organs. It’s even better to volunteer someone else. In this first-person puzzle game, you harvest organs by finding a suitable donor, leading them to a secluded area, and tranquilizing them. The trick is that not every resident of Darksville will have suitably healthy organs for your client, so you must vet your targets first.",
+                    "description": "Ludum Dare 52 Jam entry. Scored 77th overall and 25th in humor out of 1144 total submissions.\n\nIt’s great to volunteer to donate your organs. It’s even better to volunteer someone else. In this first-person puzzle game, you harvest organs by finding a \"donor\", leading them to a secluded area, and tranquilizing them. The trick is that not every resident of Darksville will have suitably healthy organs for your client, so you must vet your targets first.",
                     "links": [
                         {
                             "text": "Play the game in browser here",
@@ -87,7 +87,7 @@
                 {
                     "title": "SM216 / The Rocket Crusade",
                     "image": "rocket_crusade.png",
-                    "description": "I hosted the SM216 speedmap event based on an original idea: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map with the rule that players could only use level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called The Rocket Crusade. I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
+                    "description": "I hosted the SM216 speedmap event based on an original premise: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map using only the level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called The Rocket Crusade. I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -117,7 +117,7 @@
                 {
                     "title": "SM205 / The Infinite Garage",
                     "image": "infinite_garage.png",
-                    "description": "I hosted the SM205 speedmap event with the special requirement that participants are given restrictions for their map from a randomizer Python script I wrote. The randomizer tells the participant which entities they must use plus an additional special requirement.\n\nThe map I submitted was called The Infinite Garage. It's a total gimmick map that takes place on a grid of openable and closeable doors. I got the requirement of 8 Explosive Crates. When brainstorming ideas, I thought of using them to trigger shootable buttons. That eventually evolved into this map. The player carves their way through until they find both keys and the exit. The unofficial secret goal is to open every door in the level, a task that has a certain catharsis to it.",
+                    "description": "I hosted the SM205 speedmap event with the premise that participants are given restrictions for their map from a randomizer Python script I wrote. The randomizer tells the participant which entities they must use plus an additional special requirement.\n\nThe map I submitted was called The Infinite Garage. It's a total gimmick map that takes place on a grid of openable and closeable doors. I got the requirement of 8 Explosive Crates. When brainstorming ideas, I thought of using them to trigger shootable buttons. That eventually evolved into this map. The player carves their way through until they find both keys and the exit. The unofficial secret goal is to open every door in the level, a task that has a certain catharsis to it.",
                     "links": [
                         {
                             "text": "Try out the randomizer script here",
