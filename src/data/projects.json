@@ -177,7 +177,7 @@
                 {
                     "title": "The Escher Dimension",
                     "image": "escher.png",
-                    "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. I worked on this project almost every day for nearly a year. It is definitely the largest-scale hobby project I have ever finished.\n\nWriting code in Minecraft datapacks is very wonky. mcfunction feels more like assembly code than any C-style language. It was a fun and often frustrating experience to try to get the features I wanted working.",
+                    "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. It includes customer monster designs, custom items, and a full achievement tree.\n\nI worked on this project regularly for almost a year. It is definitely the largest-scale hobby project I have ever finished.",
                     "links": [
                         {
                             "text": "Watch the trailer here",
