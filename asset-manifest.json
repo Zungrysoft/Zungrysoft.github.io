@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ItemBuilderStudio/static/css/main.4dd80107.css",
-    "main.js": "/ItemBuilderStudio/static/js/main.fe40d1e0.js",
-    "static/js/787.a475fbc9.chunk.js": "/ItemBuilderStudio/static/js/787.a475fbc9.chunk.js",
-    "static/media/even_worse_place.png": "/ItemBuilderStudio/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
-    "static/media/rocket_crusade.png": "/ItemBuilderStudio/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
-    "static/media/crimson_consequence.png": "/ItemBuilderStudio/static/media/crimson_consequence.48fbf158514a5b17ad6c.png",
-    "static/media/watercourse.png": "/ItemBuilderStudio/static/media/watercourse.b4a91e7312bfb9dd6b4b.png",
-    "static/media/downfire.png": "/ItemBuilderStudio/static/media/downfire.e713b4bfdb307099ac6a.png",
-    "static/media/devil.png": "/ItemBuilderStudio/static/media/devil.9bf3149ca770c94d93b8.png",
-    "static/media/escher.png": "/ItemBuilderStudio/static/media/escher.7c11010ab641cd1684ef.png",
-    "static/media/infinite_garage.png": "/ItemBuilderStudio/static/media/infinite_garage.c5ef71cd3d4a33efb874.png",
-    "static/media/ulgreth.png": "/ItemBuilderStudio/static/media/ulgreth.9bbf262507de8558ad19.png",
-    "static/media/starshot.png": "/ItemBuilderStudio/static/media/starshot.2fe7500325f728b4168f.png",
-    "static/media/organized_crime.png": "/ItemBuilderStudio/static/media/organized_crime.b34d30b02a9046c613cb.png",
-    "static/media/itembuilder.png~": "/ItemBuilderStudio/static/media/itembuilder.315f4ac9a24f509b1a72.png~",
-    "static/media/itembuilder.png": "/ItemBuilderStudio/static/media/itembuilder.95d02e8c03ba26c18e9f.png",
-    "index.html": "/ItemBuilderStudio/index.html",
-    "main.4dd80107.css.map": "/ItemBuilderStudio/static/css/main.4dd80107.css.map",
-    "main.fe40d1e0.js.map": "/ItemBuilderStudio/static/js/main.fe40d1e0.js.map",
-    "787.a475fbc9.chunk.js.map": "/ItemBuilderStudio/static/js/787.a475fbc9.chunk.js.map"
+    "main.css": "/static/css/main.4dd80107.css",
+    "main.js": "/static/js/main.77c02354.js",
+    "static/js/787.27ee33f7.chunk.js": "/static/js/787.27ee33f7.chunk.js",
+    "static/media/even_worse_place.png": "/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
+    "static/media/rocket_crusade.png": "/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
+    "static/media/crimson_consequence.png": "/static/media/crimson_consequence.48fbf158514a5b17ad6c.png",
+    "static/media/watercourse.png": "/static/media/watercourse.b4a91e7312bfb9dd6b4b.png",
+    "static/media/downfire.png": "/static/media/downfire.e713b4bfdb307099ac6a.png",
+    "static/media/devil.png": "/static/media/devil.9bf3149ca770c94d93b8.png",
+    "static/media/escher.png": "/static/media/escher.7c11010ab641cd1684ef.png",
+    "static/media/infinite_garage.png": "/static/media/infinite_garage.c5ef71cd3d4a33efb874.png",
+    "static/media/ulgreth.png": "/static/media/ulgreth.9bbf262507de8558ad19.png",
+    "static/media/starshot.png": "/static/media/starshot.2fe7500325f728b4168f.png",
+    "static/media/organized_crime.png": "/static/media/organized_crime.b34d30b02a9046c613cb.png",
+    "static/media/itembuilder.png~": "/static/media/itembuilder.315f4ac9a24f509b1a72.png~",
+    "static/media/itembuilder.png": "/static/media/itembuilder.95d02e8c03ba26c18e9f.png",
+    "index.html": "/index.html",
+    "main.4dd80107.css.map": "/static/css/main.4dd80107.css.map",
+    "main.77c02354.js.map": "/static/js/main.77c02354.js.map",
+    "787.27ee33f7.chunk.js.map": "/static/js/787.27ee33f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd80107.css",
-    "static/js/main.fe40d1e0.js"
+    "static/js/main.77c02354.js"
   ]
 }
