@@ -153,6 +153,21 @@
                     ]
                 },
                 {
+                    "title": "The Dredge Arena",
+                    "image": "dredge_arena.png",
+                    "description": "An attempt to bring Mario-64 Collectathon style gameplay to Quake. The Dredge Arena is the only finished map made for my scrapped Bullet Ride mod. It uses nonlinear gameplay to promote exploration through the level to find different runes. There are nine runes to find and many of them have multiple methods to obtain them.",
+                    "links": [
+                        {
+                            "text": "Download the mod here",
+                            "url": "https://www.quaketastic.com/files/WIP_maps/BulletRide/bulletride_alpha1.zip"
+                        },
+                        {
+                            "text": "Watch a playthrough by JCR here",
+                            "url": "https://www.youtube.com/watch?v=mErXUWIfsM4"
+                        }
+                    ]
+                },
+                {
                     "title": "Crimson Consequence",
                     "image": "crimson_consequence.png",
                     "description": "SM195 speedmap made in 24 hours. It is the first Quake map I have released. The map is very simple in its structure, essentially being a playground of twelve different base ideas. It gives the player a lot of freedom on how they want to navigate it and even spawns the player in a central room containing four powerups to use at their leisure.",
