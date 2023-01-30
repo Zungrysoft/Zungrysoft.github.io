@@ -168,6 +168,17 @@
                     ]
                 },
                 {
+                    "title": "Coffee Quake",
+                    "image": "coffee_quake.png",
+                    "description": "I co-hosted the Coffee Quake community event. The premise was that each map must be made in under two hours. Mapmakers could spend those two hours whenever they wanted over a three day period, and could even make multiple submissions, but each map could only have two hours spent on it. 76 maps were submitted in total. My job was to decide the order for each map, recompile them to link the maps together, and fix any bugs.\n\nI ended up creating eight maps as submissions. The Mortal Coil, Starship Cthon, Top of the Castle, Spires Aplenty, Damnation Portals, Bosium Loops, Runeforge, and Curse of Shallow Graves.\n\nThat last map contained an innovation I still use today. Teleporting monsters into the map is a real pain since you have to set up a trigger, a teleporter, and a teleport destination, all of which need unique and correctly linked names. Curse of Shallow Graves teleports tons of monsters into the level by lining them up on a moving platform outside the map that slowly slides into a teleporter. That way, the monsters get teleported in one by one as they reach the teleporter.",
+                    "links": [
+                        {
+                            "text": "Download the pack here",
+                            "url": "https://www.quaddicted.com/reviews/quoffee.html"
+                        }
+                    ]
+                },
+                {
                     "title": "Crimson Consequence",
                     "image": "crimson_consequence.png",
                     "description": "SM195 speedmap made in 24 hours. It is the first Quake map I have released. The map is very simple in its structure, essentially being a playground of twelve different base ideas. It gives the player a lot of freedom on how they want to navigate it and even spawns the player in a central room containing four powerups to use at their leisure.",
