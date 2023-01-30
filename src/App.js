@@ -11,6 +11,9 @@ function App() {
     const [page, setPage] = useState(0);
     return (
         <div className="App">
+            <div className="header-background">
+                <h1>Zungrysoft Entertainment Inc.</h1>
+            </div>
             <Navbar
                 projectData={projectData}
                 startVal={page}

@@ -221,8 +221,14 @@
             "projects": [
                 {
                     "title": "Watercourse",
-                    "image": "",
-                    "description": "Watercourse is a 3CP Attack/Defend map. Download it here: https://tf2maps.net/downloads/watercourse.14833/"
+                    "image": "watercourse.png",
+                    "description": "Watercourse is a 3CP Attack/Defend map with a river running all the way through it. It takes place in a water De-Purification plant, where they squeeze out drinkable bottles of water to Re-Purify and Re-Bottle it later down the line.\n\nThe map is currently in alpha, but I will hopefully be able to detail it soon. Screenshots are current as of Version a15.",
+                    "links": [
+                        {
+                            "text": "Download it here",
+                            "url": "https://tf2maps.net/downloads/watercourse.14833/"
+                        }
+                    ]
                 }
             ]
         }
