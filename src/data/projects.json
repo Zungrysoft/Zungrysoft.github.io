@@ -1,9 +1,58 @@
 {
     "pages": [
         {
+            "tab": "Game Design",
+            "title": "Game Design",
+            "description": "",
+            "projects": [
+                {
+                    "title": "Organ-ized Crime",
+                    "image": "organized_crime.png",
+                    "description": "Ludum Dare 52 Jam entry. Scored 77th overall and 25th in humor out of 1144 total submissions.\n\nIt’s great to volunteer to donate your organs. It’s even better to volunteer someone else. In this first-person puzzle game, you harvest organs by finding a suitable donor, leading them to a secluded area, and tranquilizing them. The trick is that not every resident of Darksville will have suitably healthy organs for your client, so you must vet your targets first.",
+                    "links": [
+                        {
+                            "text": "Play the game in browser here",
+                            "url": "https://zungrysoft.itch.io/organized-crime"
+                        },
+                        {
+                            "text": "Ludum Dare page",
+                            "url": "https://ldjam.com/events/ludum-dare/52/organ-ized-crime"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/ld52"
+                        }
+                    ]
+                },
+                {
+                    "title": "Starshot",
+                    "image": "starshot.png",
+                    "description": "Ludum Dare 51 Jam entry. I worked on it with groverburger and we used his JavaScript engine.\n\nIn this first-person shooter/parkour game, you have ten seconds to reach the end of a series of procedurally generated levels.\n\ngroverburger did most of the gameplay while I did the procedural generation. It uses layered cellular automata to create random caves and the diamond-square algorithm to create terrain. It then chooses a random start and end point and uses Dijkstra's algorithm to find the shortest traversable path between the two so it can mark the path for the player. (If none can be found, it will carve a straight trench between a random point reachable from the start and a random point that can reach the end.) Then if the path is too long to reach (decided by the difficulty of the level), it will move the flag farther forward.\n\nThe towers found in every fifth level are created by a generation algorithm of my own design. At every step, it will choose a direction and distance. The direction is random, but it is more likely to turn back toward the center of the structure so that it will create a twisting design that loops back on itself often. Then it will randomly choose between 'stair', 'jump', or 'turn'. Stair will just move forward while increasing in height every step and will stop if it runs back into an earlier part of the tower. Jump moves forward and if it runs back into itself, it will attempt to make a gap that the player must jump over. It has safeguards to make sure the jump won't be too long to clear. Finally, turn is like jump but instead of making a jump when it runs back into itself, it will change to 'follow' mode. Follow mode tries to hug the edge of the structure and sort of wrap around it to create an upper ledge.",
+                    "links": [
+                        {
+                            "text": "Play the game in browser here",
+                            "url": "https://groverburger.itch.io/starshot"
+                        },
+                        {
+                            "text": "Ludum Dare page",
+                            "url": "https://ldjam.com/events/ludum-dare/52/organ-ized-crime"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/groverburger/ld51"
+                        },
+                        {
+                            "text": "groverburger's website",
+                            "url": "https://groverburger.github.io/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "tab": "Quake",
             "title": "Quake Level Design and Modding",
-            "description": "Levels and other projects I have created for iD Software's 1996 first person shooter game. Levels were constructed in either JACK or Trenchbroom",
+            "description": "Levels and other projects I have created for iD Software's 1996 first person shooter game.",
             "projects": [
                 {
                     "title": "Ulgreth's Labyrinth",
@@ -13,6 +62,10 @@
                         {
                             "text": "Download the pack here",
                             "url": "https://www.quaddicted.com/reviews/sm219_pack_1.1.html"
+                        },
+                        {
+                            "text": "Watch a playthrough by Greenwood here",
+                            "url": "https://www.youtube.com/watch?v=9YlspZIM_UU"
                         }
                     ]
                 },
@@ -34,7 +87,7 @@
                 {
                     "title": "SM216 / The Rocket Crusade",
                     "image": "rocket_crusade.png",
-                    "description": "I hosted the SM216 speedmap event based on an original idea: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map with the rule that players could only use level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called \"The Rocket Crusade\". I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
+                    "description": "I hosted the SM216 speedmap event based on an original idea: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map with the rule that players could only use level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called The Rocket Crusade. I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -43,6 +96,40 @@
                         {
                             "text": "Watch a playthrough by QuakeFreak here",
                             "url": "https://www.youtube.com/watch?v=bFsaNWWVuUU"
+                        }
+                    ]
+                },
+                {
+                    "title": "An Even Worse Place",
+                    "image": "even_worse_place.png",
+                    "description": "Snack Pack 2 speedmap made in two days. I took inspiration from another mapmaker called Pinchy, who is known for making very open-ended and difficult maps. The design goal was to have a map that's very difficult but you learn how to navigate it better and better with each attempt.\n\nThere are several areas that you don't necessarily have to visit in order to win, but they have items you may want. It is up to the player to decide which areas are worth visiting by balancing the difficulty of those areas and the potential waste of timed powerups with the additional benefit of the items found there.",
+                    "links": [
+                        {
+                            "text": "Download the pack here",
+                            "url": "https://www.quaddicted.com/reviews/snack2.html"
+                        },
+                        {
+                            "text": "Watch a playthrough by The Lost Slipgate here",
+                            "url": "https://www.youtube.com/watch?v=flB8oHFyqMw"
+                        }
+                    ]
+                },
+                {
+                    "title": "SM205 / The Infinite Garage",
+                    "image": "infinite_garage.png",
+                    "description": "I hosted the SM205 speedmap event with the special requirement that participants are given restrictions for their map from a randomizer Python script I wrote. The randomizer tells the participant which entities they must use plus an additional special requirement.\n\nThe map I submitted was called The Infinite Garage. It's a total gimmick map that takes place on a grid of openable and closeable doors. I got the requirement of 8 Explosive Crates. When brainstorming ideas, I thought of using them to trigger shootable buttons. That eventually evolved into this map. The player carves their way through until they find both keys and the exit. The unofficial secret goal is to open every door in the level, a task that has a certain catharsis to it.",
+                    "links": [
+                        {
+                            "text": "Try out the randomizer script here",
+                            "url": "https://py2.codeskulptor.org/#user47_u7IXWYGJpl_1.py"
+                        },
+                        {
+                            "text": "Download the pack here",
+                            "url": "https://www.quaddicted.com/reviews/sm205_rc2.html"
+                        },
+                        {
+                            "text": "Watch a playthrough by JCR here",
+                            "url": "https://youtu.be/dLeO0k89N3o?t=2444"
                         }
                     ]
                 },
@@ -88,14 +175,42 @@
             "description": "Projects I've made for Minecraft, the 2011 Game/Creativity Toy",
             "projects": [
                 {
-                    "title": "ItemBuilder / ItemBuilder Studio",
-                    "image": "",
-                    "description": "ItemBuilder is a datapack/devkit for Minecraft mapmakers that allows the design of custom items using a system of effects and conditions. You can define a recursive JSON structure in item data to make the item have certain effects but only under certain conditions.The logic is designed to be freeform enough to make a wide variety of common item designs possible while still being very user-friendly if using ItemBuilder Studio.\n\nItemBuilder Studio is a React website that generates item /give commands. Since the recursive JSON structure can be a real pain to write by hand, this website makes things easy with convenient dropdowns and a much more appealing way to visualize the logic. It also includes other useful features for custom item design.\n\nA previous version of the website was made using Flutter. It was scrapped for the 2.0 version of ItemBuilder because Flutter's web export is very poorly optimized and I wanted to learn React.\n\nCheck out the website here: https://zungrysoft.github.io/ItemBuilderStudio/"
+                    "title": "The Escher Dimension",
+                    "image": "escher.png",
+                    "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. I worked on this project almost every day for nearly a year. It is definitely the largest-scale hobby project I have ever finished.\n\nWriting code in Minecraft datapacks is very wonky. mcfunction feels more like assembly code than any C-style language. It was a fun and often frustrating experience to try to get the features I wanted working.",
+                    "links": [
+                        {
+                            "text": "Watch the trailer here",
+                            "url": "https://www.youtube.com/watch?v=_Lw7d5TTkJ0"
+                        },
+                        {
+                            "text": "Download The Escher Dimension here",
+                            "url": "https://github.com/Zungrysoft/The-Escher-Dimension/releases"
+                        },
+                        {
+                            "text": "Watch a playthrough by BSM here",
+                            "url": "https://www.youtube.com/watch?v=qiD3x4zaWH4"
+                        }
+                    ]
                 },
                 {
-                    "title": "The Escher Dimension",
-                    "image": "",
-                    "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. I worked on this project almost every day for nearly a year. It is definitely the largest-scale hobby project I have ever finished.\n\nWriting code in Minecraft datapacks is very wonky. mcfunction feels more like assembly code than any C-style language. It was a fun and often frustrating experience to try to get the features I wanted working."
+                    "title": "ItemBuilder / ItemBuilder Studio",
+                    "image": "itembuilder.png",
+                    "description": "ItemBuilder is a datapack/devkit for Minecraft mapmakers that allows the design of custom items using a system of effects and conditions. You can define a recursive JSON structure in item data to make the item have certain effects but only under certain conditions.The logic is designed to be freeform enough to make a wide variety of common item designs possible while still being very user-friendly if using ItemBuilder Studio.\n\nItemBuilder Studio is a React website that generates item /give commands for ItemBuilder. Since the recursive JSON structure can be a real pain to write by hand, this website makes things easy with convenient dropdowns and a much more appealing way to visualize the logic. It also includes other useful features for custom item design.\n\nA previous version of the website was made using Flutter. It was scrapped for the 2.0 version of ItemBuilder because Flutter's web export is very poorly optimized and I wanted to learn React.",
+                    "links": [
+                        {
+                            "text": "Download ItemBuilder here",
+                            "url": "https://github.com/Zungrysoft/ItemBuilder/releases"
+                        },
+                        {
+                            "text": "Use ItemBuilder Studio here",
+                            "url": "https://zungrysoft.github.io/ItemBuilderStudio/"
+                        },
+                        {
+                            "text": "ItemBuilder Studio GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/ItemBuilderStudio"
+                        }
+                    ]
                 }
             ]
         },
