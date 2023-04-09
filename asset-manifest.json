@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4dd80107.css",
-    "main.js": "/static/js/main.0eecc0e4.js",
+    "main.js": "/static/js/main.db92b332.js",
     "static/js/787.27ee33f7.chunk.js": "/static/js/787.27ee33f7.chunk.js",
     "static/media/even_worse_place.png": "/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
     "static/media/rocket_crusade.png": "/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
@@ -19,16 +19,15 @@
     "static/media/starshot.png": "/static/media/starshot.2fe7500325f728b4168f.png",
     "static/media/mobile_midi.png": "/static/media/mobile_midi.32a96c0611bc5f9da429.png",
     "static/media/organized_crime.png": "/static/media/organized_crime.b34d30b02a9046c613cb.png",
-    "static/media/itembuilder.png~": "/static/media/itembuilder.315f4ac9a24f509b1a72.png~",
     "static/media/itembuilder.png": "/static/media/itembuilder.95d02e8c03ba26c18e9f.png",
     "static/media/itembuilderstudio.png": "/static/media/itembuilderstudio.ad422167fda086c324bf.png",
     "index.html": "/index.html",
     "main.4dd80107.css.map": "/static/css/main.4dd80107.css.map",
-    "main.0eecc0e4.js.map": "/static/js/main.0eecc0e4.js.map",
+    "main.db92b332.js.map": "/static/js/main.db92b332.js.map",
     "787.27ee33f7.chunk.js.map": "/static/js/787.27ee33f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd80107.css",
-    "static/js/main.0eecc0e4.js"
+    "static/js/main.db92b332.js"
   ]
 }
