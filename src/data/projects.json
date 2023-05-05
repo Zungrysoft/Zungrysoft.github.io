@@ -66,6 +66,25 @@
             "description": "",
             "projects": [
                 {
+                    "title": "Sorting Center Savant",
+                    "image": "sorting_center_savant.png",
+                    "description": "Ludum Dare 53 Jam entry.\n\nA puzzle game where you must sort boxes into the correct chute using color-coded machinery. Each color has one control that activates all of the machinery of that color, requiring careful ordering of moves. It has 12 challenging levels to play and support for custom levels.",
+                    "links": [
+                        {
+                            "text": "Play the game in browser here",
+                            "url": "https://zungrysoft.github.io/ld53/"
+                        },
+                        {
+                            "text": "Ludum Dare page",
+                            "url": "https://ldjam.com/events/ludum-dare/53/sorting-center-savant"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/ld53"
+                        }
+                    ]
+                },
+                {
                     "title": "Organ-ized Crime",
                     "image": "organized_crime.png",
                     "description": "Ludum Dare 52 Jam entry. Scored 77th overall and 25th in humor out of 1144 total submissions.\n\nIt’s great to volunteer to donate your organs. It’s even better to volunteer someone else. In this first-person puzzle game, you harvest organs by finding a \"donor\", leading them to a secluded area, and tranquilizing them. The trick is that not every resident of Darksville will have suitably healthy organs for your client, so you must vet your targets first.",
