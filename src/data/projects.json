@@ -68,7 +68,7 @@
                 {
                     "title": "Sorting Center Savant",
                     "image": "sorting_center_savant.png",
-                    "description": "Ludum Dare 53 Jam entry. Placed 18th overall, 19th in fun, and 12th in innovation out of 491 total submissions.\n\nA puzzle game where you must sort boxes into the correct chute using color-coded machinery. Each color has one control that activates all of the machinery of that color, requiring careful ordering of moves. It has 12 challenging levels to play and support for custom levels.",
+                    "description": "Ludum Dare 53 Compo entry. Placed 18th overall, 19th in fun, and 12th in innovation out of 491 total submissions.\n\nA puzzle game where you must sort boxes into the correct chute using color-coded machinery. Each color has one control that activates all of the machinery of that color, requiring careful ordering of moves. It has 12 challenging levels to play and support for custom levels.",
                     "links": [
                         {
                             "text": "Play the game in browser here",
