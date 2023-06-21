@@ -15,6 +15,10 @@
                             "url": "https://zungrysoft.github.io/ItemBuilderStudio/"
                         },
                         {
+                            "text": "Video Tutorial",
+                            "url": "https://www.youtube.com/watch?v=F3cVSwe-9Ys&list=PLIKyq4udOqV5j7yCZHKlt72CUPi7CpuRK"
+                        },
+                        {
                             "text": "GitHub Repo",
                             "url": "https://github.com/Zungrysoft/ItemBuilderStudio"
                         }
@@ -277,7 +281,7 @@
         {
             "tab": "Minecraft",
             "title": "Minecraft Projects",
-            "description": "Projects I've made for Minecraft, the 2011 Game/Creativity Toy",
+            "description": "Projects I've made for Minecraft, the 2011 Voxel Game",
             "projects": [
                 {
                     "title": "The Escher Dimension",
@@ -310,6 +314,10 @@
                         {
                             "text": "Use ItemBuilder Studio here",
                             "url": "https://zungrysoft.github.io/ItemBuilderStudio/"
+                        },
+                        {
+                            "text": "Video Tutorial",
+                            "url": "https://www.youtube.com/watch?v=F3cVSwe-9Ys&list=PLIKyq4udOqV5j7yCZHKlt72CUPi7CpuRK"
                         },
                         {
                             "text": "ItemBuilder Studio GitHub Repo",
