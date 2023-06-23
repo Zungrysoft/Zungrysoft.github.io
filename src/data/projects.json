@@ -6,6 +6,17 @@
             "description": "",
             "projects": [
                 {
+                    "title": "Untitled Voxel Engine",
+                    "image": "voxel_terrain.png",
+                    "description": "Javascript voxel game engine I am currently working on. In its current form, it has infinite procedural terrain generation using perlin noise and automatic chunk re-meshing whenever the a chunk is edited.",
+                    "links": [
+                        {
+                            "text": "Demonstration Video",
+                            "url": "https://www.youtube.com/watch?v=giL8K5PZHFM"
+                        }
+                    ]
+                },
+                {
                     "title": "ItemBuilder Studio v2.0",
                     "image": "itembuilderstudio.png",
                     "description": "Web interface for a Minecraft datapack I created. (See the 'Minecraft' tab for more info.) It is a user-friendly interface to create the recursive JSON structures that define item behavior in my datapack. Create effects for the items and conditions that must take place for those effects to happen. Mix and match any way you like to create your custom items.\n\nCreated in React.js.",
