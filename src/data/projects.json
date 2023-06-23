@@ -8,7 +8,7 @@
                 {
                     "title": "Untitled Voxel Engine",
                     "image": "voxel_terrain.png",
-                    "description": "Javascript voxel game engine I am currently working on. In its current form, it has infinite procedural terrain generation using perlin noise and automatic chunk re-meshing whenever the a chunk is edited.",
+                    "description": "Javascript voxel game engine I am currently working on. In its current form, it has infinite procedural terrain generation using perlin noise and automatic chunk re-meshing whenever a chunk is edited.",
                     "links": [
                         {
                             "text": "Demonstration Video",
