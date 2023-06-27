@@ -18,7 +18,7 @@
                     ]
                 },
                 {
-                    "title": "ItemBuilder Studio v2.0",
+                    "title": "ItemBuilder Studio",
                     "image": "itembuilderstudio.png",
                     "description": "Web interface for a Minecraft datapack I created. (See the 'Minecraft' tab for more info.) It is a user-friendly interface to create the recursive JSON structures that define item behavior in my datapack. Create effects for the items and conditions that must take place for those effects to happen. Mix and match any way you like to create your custom items.\n\nCreated in React.js.",
                     "dateDisplay": "March 2022 - April 2022",
@@ -50,13 +50,13 @@
                     ]
                 },
                 {
-                    "title": "ItemBuilderGUI",
+                    "title": "ItemBuilder GUI",
                     "image": "itembuildergui.png",
                     "description": "An older, uglier version of ItemBuilder Studio for the 1.0 version of the datapack. Created in Flutter. I scrapped this website for the v2.0 version of the datapack so I could start fresh with a more modern framework.",
                     "dateDisplay": "August 2021 - September 2021",
                     "links": [
                         {
-                            "text": "Use ItemBuilderGUI here",
+                            "text": "Use ItemBuilder GUI here",
                             "url": "https://zungrysoft.github.io/ItemBuilderGui-Build/#/"
                         },
                         {
