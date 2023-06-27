@@ -50,6 +50,26 @@
                     ]
                 },
                 {
+                    "title": "ItemBuilderGUI",
+                    "image": "itembuildergui.png",
+                    "description": "An older, uglier version of ItemBuilder Studio for the 1.0 version of the datapack. Created in Flutter. I scrapped this website for the v2.0 version of the datapack so I could start fresh with a more modern framework.",
+                    "dateDisplay": "August 2021 - September 2021",
+                    "links": [
+                        {
+                            "text": "Use ItemBuilderGUI here",
+                            "url": "https://zungrysoft.github.io/ItemBuilderGui-Build/#/"
+                        },
+                        {
+                            "text": "Video Tutorial",
+                            "url": "https://www.youtube.com/watch?v=4ziKgiRIg7M"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/ItemBuilderGui"
+                        }
+                    ]
+                },
+                {
                     "title": "Mobile MIDI",
                     "image": "mobile_midi.png",
                     "description": "Mobile MIDI is a mobile app for using your phone as a gyroscopic MIDI controller. You can tilt your phone left and right to select notes and press on the bottom half of the screen to play them until you release your finger. It has many options for customizing the available MIDI controls and how the controller will respond to various actions. You can set it up to play basic piano sounds or you can plug it into a MIDI device (such as a synthesizer) and control it.\n\nDeveloped for my mobile development class in college. Written in Flutter.",
@@ -64,7 +84,7 @@
                 {
                     "title": "PlayBuddy",
                     "image": "",
-                    "description": "PlayBuddy (I did not pick the name) is a web app for finding ongoing and upcoming events in your local area. It features the ability to post new events and filter events by date and proximity. The proximity filter uses a dataset of zip codes to determine distance.\n\nDeveloped for my software engineering class in college on a team of five people. I did most of the backend, which was made in express.js.",
+                    "description": "PlayBuddy is a web app for finding ongoing and upcoming events in your local area. It features the ability to post new events and filter events by date and proximity. The proximity filter uses a dataset of zip codes to determine distance.\n\nDeveloped for my software engineering class in college on a team of five people. I did most of the backend, which was made in express.js.",
                     "dateDisplay": "August 2020 - December 2020",
                     "links": [
                         {
