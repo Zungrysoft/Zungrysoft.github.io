@@ -9,6 +9,7 @@
                     "title": "Untitled Voxel Engine",
                     "image": "voxel_terrain.png",
                     "description": "Javascript voxel game engine I am currently working on. In its current form, it has infinite procedural terrain generation using perlin noise and automatic chunk re-meshing whenever a chunk is edited.",
+                    "dateDisplay": "June 2023 - Current",
                     "links": [
                         {
                             "text": "Demonstration Video",
@@ -20,6 +21,7 @@
                     "title": "ItemBuilder Studio v2.0",
                     "image": "itembuilderstudio.png",
                     "description": "Web interface for a Minecraft datapack I created. (See the 'Minecraft' tab for more info.) It is a user-friendly interface to create the recursive JSON structures that define item behavior in my datapack. Create effects for the items and conditions that must take place for those effects to happen. Mix and match any way you like to create your custom items.\n\nCreated in React.js.",
+                    "dateDisplay": "March 2022 - April 2022",
                     "links": [
                         {
                             "text": "Use ItemBuilder Studio here",
@@ -39,6 +41,7 @@
                     "title": "SongSketchStudio",
                     "image": "songsketchstudio.png",
                     "description": "SongSketchStudio is a web app for sketching out songs with your friends and/or bandmates in real time using concurrent editing! Create simple compositions fast so your band can start playing them right away.\n\nYou have two main views: The part view and the arrangement view. The part view lets you place notes at various times and select different instruments. The arrangement view lets you arrange the various parts together to create a full song. Both views have a player that lets you listen to your song in its current state.\n\nThe app has a login/account system to protect parts and songs against unauthorized access. You can also invite friends to work on parts with you, granting them access.\n\nDeveloped using express.js with MongoDB for the backend and vanilla Javascript for the frontend. This was my Capstone Project for my Bachelor's Degree.",
+                    "dateDisplay": "August 2021 - December 2021",
                     "links": [
                         {
                             "text": "GitHub Repo",
@@ -50,6 +53,7 @@
                     "title": "Mobile MIDI",
                     "image": "mobile_midi.png",
                     "description": "Mobile MIDI is a mobile app for using your phone as a gyroscopic MIDI controller. You can tilt your phone left and right to select notes and press on the bottom half of the screen to play them until you release your finger. It has many options for customizing the available MIDI controls and how the controller will respond to various actions. You can set it up to play basic piano sounds or you can plug it into a MIDI device (such as a synthesizer) and control it.\n\nDeveloped for my mobile development class in college. Written in Flutter.",
+                    "dateDisplay": "April 2021 - May 2021",
                     "links": [
                         {
                             "text": "GitHub Repo",
@@ -61,6 +65,7 @@
                     "title": "PlayBuddy",
                     "image": "",
                     "description": "PlayBuddy (I did not pick the name) is a web app for finding ongoing and upcoming events in your local area. It features the ability to post new events and filter events by date and proximity. The proximity filter uses a dataset of zip codes to determine distance.\n\nDeveloped for my software engineering class in college on a team of five people. I did most of the backend, which was made in express.js.",
+                    "dateDisplay": "August 2020 - December 2020",
                     "links": [
                         {
                             "text": "GitHub Repo",
@@ -71,7 +76,8 @@
                 {
                     "title": "Let's Meet",
                     "image": "",
-                    "description": "Let's Meet is a simple web app for agreeing on a time to hold a meetup. The host can select available dates and times from a calendar and participants can select when they are available from those times. The calendar has a heatmap visualization to show which times are the most available and will specially mark times where everyone is available.\n\nDeveloped for my web development class in college on a team of two. Written in Django."
+                    "description": "Let's Meet is a simple web app for agreeing on a time to hold a meetup. The host can select available dates and times from a calendar and participants can select when they are available from those times. The calendar has a heatmap visualization to show which times are the most available and will specially mark times where everyone is available.\n\nDeveloped for my web development class in college on a team of two. Written in Django.",
+                    "dateDisplay": "2019"
                 }
             ]
         },
@@ -84,6 +90,7 @@
                     "title": "Sorting Center Savant",
                     "image": "sorting_center_savant.png",
                     "description": "Ludum Dare 53 Compo entry. Placed 18th overall, 19th in fun, and 12th in innovation out of 491 total submissions.\n\nA puzzle game where you must sort boxes into the correct chute using color-coded machinery. Each color has one control that activates all of the machinery of that color, requiring careful ordering of moves. It has 12 challenging levels to play and support for custom levels.",
+                    "dateDisplay": "April 2023",
                     "links": [
                         {
                             "text": "Play the game in browser here",
@@ -103,6 +110,7 @@
                     "title": "Organ-ized Crime",
                     "image": "organized_crime.png",
                     "description": "Ludum Dare 52 Jam entry. Placed 77th overall and 25th in humor out of 1144 total submissions.\n\nIt’s great to volunteer to donate your organs. It’s even better to volunteer someone else. In this first-person puzzle game, you harvest organs by finding a \"donor\", leading them to a secluded area, and tranquilizing them. The trick is that not every resident of Darksville will have suitably healthy organs for your client, so you must vet your targets first.",
+                    "dateDisplay": "January 2023",
                     "links": [
                         {
                             "text": "Play the game in browser here",
@@ -122,6 +130,7 @@
                     "title": "Starshot",
                     "image": "starshot.png",
                     "description": "Ludum Dare 51 Jam entry. I worked on it with groverburger and we used his JavaScript engine.\n\nIn this first-person shooter/parkour game, you have ten seconds to reach the end of a series of procedurally generated levels.\n\ngroverburger did most of the gameplay while I did the procedural generation. It uses layered cellular automata to create random caves and the diamond-square algorithm to create terrain. It then chooses a random start and end point and uses Dijkstra's algorithm to find the shortest traversable path between the two so it can mark the path for the player. (If none can be found, it will carve a straight trench between a random point reachable from the start and a random point that can reach the end.) Then if the path is too long to reach (decided by the difficulty of the level), it will move the flag farther forward.\n\nThe towers found in every fifth level are created by a generation algorithm of my own design. At every step, it will choose a direction and distance. The direction is random, but it is more likely to turn back toward the center of the structure so that it will create a twisting design that loops back on itself often. Then it will randomly choose between 'stair', 'jump', or 'turn'. Stair will just move forward while increasing in height every step and will stop if it runs back into an earlier part of the tower. Jump moves forward and if it runs back into itself, it will attempt to make a gap that the player must jump over. It has safeguards to make sure the jump won't be too long to clear. Finally, turn is like jump but instead of making a jump when it runs back into itself, it will change to 'follow' mode. Follow mode tries to hug the edge of the structure and sort of wrap around it to create an upper ledge.",
+                    "dateDisplay": "October 2022",
                     "links": [
                         {
                             "text": "Play the game in browser here",
@@ -152,6 +161,7 @@
                     "title": "Ulgreth's Labyrinth",
                     "image": "ulgreth.png",
                     "description": "SM219 speedmap made in 4 days with a limit of 40 monsters or fewer. I had always intended to make puzzle-oriented Quake map and this speedmap event seemed like the perfect opportunity. In this level, you must avoid combat and manipulate the environment to deal with monsters in other ways.\n\nI purposely used Death Knights as the first few enemies the player encounters, since they are particularly difficult to kill with only the Axe. This teaches the player to look for alternate avenues to get past obstacles.",
+                    "dateDisplay": "July 2022",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -167,6 +177,7 @@
                     "title": "Devil Monster / The Fuse is Lit",
                     "image": "devil.png",
                     "description": "As my submission to the second community Modding Jam, I made a custom monster called the Devil. It is a completely original monster start-to-finish with custom modeling, animations, skinning, and AI. It was made with three design goals in mind:\n1) To pose a credible threat to the player even when it has the low ground.\n2) To be able to hit the player from unique angles, including from behind other monsters.\n3) To not chase the player directly and instead try to keep its distance.\n\nThe Fuse is Lit was the demo map I packaged in with my submission to show off the new enemy. It was designed to show off the monster's unique capabilities in a multitude of different ways while still playing like a classic Quake level should.",
+                    "dateDisplay": "February 2022",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -182,6 +193,7 @@
                     "title": "SM216 / The Rocket Crusade",
                     "image": "rocket_crusade.png",
                     "description": "I hosted the SM216 speedmap event based on an original premise: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map using only the level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called The Rocket Crusade. I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
+                    "dateDisplay": "February 2022",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -197,6 +209,7 @@
                     "title": "An Even Worse Place",
                     "image": "even_worse_place.png",
                     "description": "Snack Pack 2 speedmap made in two days. I took inspiration from another mapmaker called Pinchy, who is known for making very open-ended and difficult maps. The design goal was to have a map that's very difficult but you learn how to navigate it better and better with each attempt.\n\nThere are several areas that you don't necessarily have to visit in order to win, but they have items you may want. It is up to the player to decide which areas are worth visiting by balancing the difficulty of those areas and the potential waste of timed powerups with the additional benefit of the items found there.",
+                    "dateDisplay": "January 2022",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -212,6 +225,7 @@
                     "title": "SM205 / The Infinite Garage",
                     "image": "infinite_garage.png",
                     "description": "I hosted the SM205 speedmap event with the premise that participants are given restrictions for their map from a randomizer Python script I wrote. The randomizer tells the participant which entities they must use plus an additional special requirement.\n\nThe map I submitted was called The Infinite Garage. It's a total gimmick map that takes place on a grid of openable and closeable doors. I got the requirement of 8 Explosive Crates. When brainstorming ideas, I thought of using them to trigger shootable buttons. That eventually evolved into this map. The player carves their way through until they find both keys and the exit. The unofficial secret goal is to open every door in the level, a task that has a certain catharsis to it.",
+                    "dateDisplay": "January 2020",
                     "links": [
                         {
                             "text": "Try out the randomizer script here",
@@ -231,6 +245,7 @@
                     "title": "Downfire",
                     "image": "downfire.png",
                     "description": "SM198 speedmap made in about two weeks with the limitation that the map could be no more than 768x768 units wide horizontally. The map could, however, be as tall as it wanted. In fact, my map takes up the entire vertical space a Quake map is allowed without expanded limits.\n\nThe map is essentially one long \"Romero Lift\" (a slow moving platform that you must ride while monsters drop in from above.) It constantly spawns new enemies above the player that they must fend off until the laser-grid floor lowers down to next checkpoint. All the while, the level geometry is changing as new obstacles phase through the floor and into the immediate playable space. In order to pace the level out, the elevator stops twice during the level. The player must go through a teleporter taking them to a side room where they must press a switch that re-enables the elevator. These side rooms are much slower paced in order to give the player a break from the frantic action of the elevator sections.\n\nThe third and final section of the elevator makes the greatest use of the changing obstacles by making the level constantly morph and shift until a well-timed Quad Damage drops from the ceiling. At the end, the level splits into four divided sections while monsters continue to spawn in the other three. The monsters continue to build up until the walls disappear completely and the player must fight all of them with their waning Quad Damage.\n\nThis is my favorite level I have designed for Quake.",
+                    "dateDisplay": "June 2019",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -250,6 +265,7 @@
                     "title": "The Dredge Arena",
                     "image": "dredge_arena.png",
                     "description": "An attempt to bring Mario-64 Collectathon style gameplay to Quake. The Dredge Arena is the only finished map made for my scrapped Bullet Ride mod. It uses nonlinear gameplay to promote exploration through the level to find different runes. There are nine runes to find and many of them have multiple methods to obtain them.",
+                    "dateDisplay": "June 2019",
                     "links": [
                         {
                             "text": "Download the mod here",
@@ -265,6 +281,7 @@
                     "title": "Coffee Quake",
                     "image": "coffee_quake.png",
                     "description": "I co-hosted the Coffee Quake community event. The premise was that each map must be made in under two hours. Mapmakers could spend those two hours whenever they wanted over a three day period, and could even make multiple submissions, but each map could only have two hours spent on it. 76 maps were submitted in total. My job was to decide the order for each map, recompile them to link the maps together, and fix any bugs.\n\nI ended up creating eight maps as submissions. The Mortal Coil, Starship Cthon, Top of the Castle, Spires Aplenty, Damnation Portals, Bosium Loops, Runeforge, and Curse of Shallow Graves.\n\nThat last map contained an innovation I still use today. Teleporting monsters into the map is a real pain since you have to set up a trigger, a teleporter, and a teleport destination, all of which need unique and correctly linked names. Curse of Shallow Graves teleports tons of monsters into the level by lining them up on a moving platform outside the map that slowly slides into a teleporter. That way, the monsters get teleported in one by one as they reach the teleporter.",
+                    "dateDisplay": "June 2019",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -276,6 +293,7 @@
                     "title": "Crimson Consequence",
                     "image": "crimson_consequence.png",
                     "description": "SM195 speedmap made in 24 hours. It is the first Quake map I have released. The map is very simple in its structure, essentially being a playground of twelve different base ideas. It gives the player a lot of freedom on how they want to navigate it and even spawns the player in a central room containing four powerups to use at their leisure.",
+                    "dateDisplay": "May 2019",
                     "links": [
                         {
                             "text": "Download the pack here",
@@ -298,6 +316,7 @@
                     "title": "The Escher Dimension",
                     "image": "escher.png",
                     "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. It includes custom monster designs, custom items, and a full achievement tree.\n\nI worked on this project regularly for almost a year. It is definitely the largest-scale hobby project I have ever finished.\n\nCurrently has **escher_downloads** downloads.",
+                    "dateDisplay": "June 2020 - June 2021",
                     "links": [
                         {
                             "text": "Watch the trailer here",
@@ -317,6 +336,7 @@
                     "title": "ItemBuilder / ItemBuilder Studio",
                     "image": "itembuilder.png",
                     "description": "ItemBuilder is a datapack/devkit for Minecraft mapmakers that allows the design of custom items using a system of effects and conditions. You can define a recursive JSON structure in item data to make the item have certain effects but only under certain conditions. The logic is designed to be freeform enough to make a wide variety of common item designs possible while still being very user-friendly if using ItemBuilder Studio.\n\nItemBuilder Studio is a React website that generates item /give commands for ItemBuilder. Since the recursive JSON structure can be a real pain to write by hand, this website makes things easy with convenient dropdowns and a much more appealing way to visualize the logic. It also includes other useful features for custom item design.\n\nA previous version of the website was made using Flutter. It was scrapped for the 2.0 version of ItemBuilder because Flutter's web export is very poorly optimized and I wanted to learn React.",
+                    "dateDisplay": "August 2021 - April 2022",
                     "links": [
                         {
                             "text": "Download ItemBuilder here",
@@ -347,6 +367,7 @@
                     "title": "Watercourse",
                     "image": "watercourse.png",
                     "description": "Watercourse is a 3CP Attack/Defend map with a river running all the way through it. It takes place in a water De-Purification plant, where they squeeze out drinkable bottles of water to Re-Purify and Re-Bottle it later down the line.\n\nThe map is currently in alpha, but I will hopefully be able to detail it soon. Screenshots are current as of Version a15.",
+                    "dateDisplay": "November 2022 - February 2023",
                     "links": [
                         {
                             "text": "Download it here",
@@ -365,6 +386,7 @@
                     "title": "WATMM Competition Submissions",
                     "image": "watmm.png",
                     "description": "These are the submissions I have made to the We Are the Music Makers monthly themed competition. They're not mixed very well since I was (and still am) pretty new to audio mixing and production. All live instruments are played by myself. All other instruments are MIDI.\n\nMy favorite tracks of the collection are The Spring Market Carnival, Hill Top Zone, and The Tin Street Busker.",
+                    "dateDisplay": "April 2022 - Current",
                     "links": [
                         {
                             "text": "Listen here",

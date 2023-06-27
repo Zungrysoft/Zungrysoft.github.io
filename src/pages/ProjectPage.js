@@ -1,14 +1,5 @@
 import React,{useState, useEffect} from 'react';
-const images = require.context('../../public/images', true);
-
-function getImage(str) {
-    try {
-        return images("./" + str)
-    }
-    catch {
-        return ""
-    }
-}
+import Project from '../components/Project';
 
 function getEscherDownloads(setEscherDownloads) {
     fetch('https://api.github.com/repos/ZungrySoft/The-Escher-Dimension/releases')
@@ -22,14 +13,6 @@ function getEscherDownloads(setEscherDownloads) {
             }
             setEscherDownloads(total)
         });
-}
-
-function dataFormat(str, escherDownloads) {
-    if (str.includes("**escher_downloads**")) {
-        str = str.replace("**escher_downloads**", escherDownloads)
-    }
-    
-    return str
 }
 
 function ProjectPage({ data }) {
@@ -48,19 +31,7 @@ function ProjectPage({ data }) {
             <h2>{data.title}</h2>
             <h4>{data.description}</h4>
             {data.projects.map((val,index) =>
-                <div className="bounding-box">
-                    <div>
-                        <h4>{val.title}</h4>
-                        <p>{dataFormat(val.description, escherDownloads, setEscherDownloads)}</p>
-                        {val.links ? val.links.map((link, index) =>
-                            <div>
-                                <a target="blank" rel="noopener noreferrer" href={link.url}>{link.text}</a>
-                            </div>
-                        ):<div/>}
-
-                    </div>
-                    <img className="sideImage" src={getImage(val.image)}/>
-                </div>
+                <Project projectData={val} escherDownloads={escherDownloads}/>
             )}
         </div>
     );

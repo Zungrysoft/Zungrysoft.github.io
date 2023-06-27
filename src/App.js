@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './App.css';
 
-import ProjectPage from './pages/Project.js';
+import ProjectPage from './pages/ProjectPage.js';
 
 import Navbar from './components/Navbar.js';
 

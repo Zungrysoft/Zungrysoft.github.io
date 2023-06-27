@@ -114,6 +114,26 @@ h4 {
     background-color: #21252c;
 }
 
+.inner-box {
+    position: relative;
+}
+
+.header-background {
+    background-color: #21252c;
+    display: flex;
+    justify-content: center;
+}
+
+.date {
+    font-size: 18px;
+    color:#7f838b;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
 img {
     align-self: start;
 }
@@ -121,10 +141,7 @@ img {
 .sideImage {
     align-self: start;
     max-width: 33%;
-}
-
-.header-background {
-    background-color: #21252c;
-    display: flex;
-    justify-content: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
 }
