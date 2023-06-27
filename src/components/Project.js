@@ -30,7 +30,7 @@ function Project({ projectData, escherDownloads }) {
                 ):<div/>}
                 <p className="date">{projectData.dateDisplay}</p>
             </div>
-            <img className="sideImage" src={getImage(projectData.image)}/>
+            <img className="sideImage" src={getImage(projectData.image)} alt={projectData.title}/>
         </div>
     )
 }
