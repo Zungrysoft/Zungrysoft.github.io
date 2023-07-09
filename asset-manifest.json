@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a81c7a6b.css",
-    "main.js": "/static/js/main.a9c60600.js",
+    "main.js": "/static/js/main.c3cb6039.js",
     "static/js/787.27ee33f7.chunk.js": "/static/js/787.27ee33f7.chunk.js",
     "static/media/even_worse_place.png": "/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
     "static/media/rocket_crusade.png": "/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
@@ -24,13 +24,14 @@
     "static/media/itembuilderstudio.png": "/static/media/itembuilderstudio.ad422167fda086c324bf.png",
     "static/media/voxel_terrain.png": "/static/media/voxel_terrain.0b4ca30dc8c58600e718.png",
     "static/media/itembuildergui.png": "/static/media/itembuildergui.af76029e25fe3d72b070.png",
+    "static/media/person_guy.png": "/static/media/person_guy.bee61b01e4eb05f8312c.png",
     "index.html": "/index.html",
     "main.a81c7a6b.css.map": "/static/css/main.a81c7a6b.css.map",
-    "main.a9c60600.js.map": "/static/js/main.a9c60600.js.map",
+    "main.c3cb6039.js.map": "/static/js/main.c3cb6039.js.map",
     "787.27ee33f7.chunk.js.map": "/static/js/787.27ee33f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a81c7a6b.css",
-    "static/js/main.a9c60600.js"
+    "static/js/main.c3cb6039.js"
   ]
 }
