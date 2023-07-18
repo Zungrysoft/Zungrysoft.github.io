@@ -109,12 +109,16 @@
                 {
                     "title": "You Are Person Guy",
                     "image": "person_guy.png",
-                    "description": "GMTK 2023 Jam entry.\n\nA puzzle game where you can mind control your enemies. Control six different enemy types with unique abilities: Golem Guy, Fire Guy, Water Guy, Wind Guy, Ice Guy, and Vine Guy. Contains 25 challenging levels!\n\nMade in a team with Groverburger using his custom javascript game engine.",
+                    "description": "GMTK 2023 Jam entry. Placed 472nd overall and 75th in enjoyment out of 6842 total submissions.\n\nA puzzle game where you can mind control your enemies. Control six different enemy types with unique abilities: Golem Guy, Fire Guy, Water Guy, Wind Guy, Ice Guy, and Vine Guy. Contains 25 challenging levels!\n\nMade in a team with Groverburger using his custom javascript game engine.",
                     "dateDisplay": "July 2023",
                     "links": [
                         {
                             "text": "Play the game in browser here",
                             "url": "https://groverburger.itch.io/you-are-person-guy"
+                        },
+                        {
+                            "text": "GMTK Submission Page",
+                            "url": "https://itch.io/jam/gmtk-2023/rate/2157679"
                         },
                         {
                             "text": "GitHub Repo",
@@ -137,7 +141,7 @@
                             "url": "https://zungrysoft.github.io/ld53/"
                         },
                         {
-                            "text": "Ludum Dare page",
+                            "text": "Ludum Dare Submission Page",
                             "url": "https://ldjam.com/events/ludum-dare/53/sorting-center-savant"
                         },
                         {
@@ -157,7 +161,7 @@
                             "url": "https://zungrysoft.itch.io/organized-crime"
                         },
                         {
-                            "text": "Ludum Dare page",
+                            "text": "Ludum Dare Submission Page",
                             "url": "https://ldjam.com/events/ludum-dare/52/organ-ized-crime"
                         },
                         {
@@ -177,7 +181,7 @@
                             "url": "https://groverburger.itch.io/starshot"
                         },
                         {
-                            "text": "Ludum Dare page",
+                            "text": "Ludum Dare Submission Page",
                             "url": "https://ldjam.com/events/ludum-dare/51/starshot"
                         },
                         {
