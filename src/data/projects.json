@@ -109,7 +109,7 @@
                 {
                     "title": "You Are Person Guy",
                     "image": "person_guy.png",
-                    "description": "GMTK 2023 Jam entry. Placed 472nd overall and 75th in enjoyment out of 6842 total submissions.\n\nA puzzle game where you can mind control your enemies. Control six different enemy types with unique abilities: Golem Guy, Fire Guy, Water Guy, Wind Guy, Ice Guy, and Vine Guy. Contains 25 challenging levels!\n\nMade in a team with Groverburger using his custom javascript game engine.",
+                    "description": "GMTK 2023 Jam entry. Placed 472nd overall and 75th in enjoyment out of 6842 total submissions.\n\nA puzzle game where you can mind control your enemies. Control six different enemy types with unique abilities: Golem Guy, Fire Guy, Water Guy, Wind Guy, Ice Guy, and Vine Guy. Contains 25 challenging levels!\n\nMade on a team with Groverburger using his custom javascript game engine. He did the visual design, sound design, and menus while I did the mechanics programming, level design, and music.",
                     "dateDisplay": "July 2023",
                     "links": [
                         {
@@ -173,7 +173,7 @@
                 {
                     "title": "Starshot",
                     "image": "starshot.png",
-                    "description": "Ludum Dare 51 Jam entry.\n\nIn this first-person shooter/parkour game, you have ten seconds to reach the end of a series of procedurally generated levels.\n\ngroverburger did most of the gameplay while I did the procedural generation. It uses layered cellular automata to create random caves and the diamond-square algorithm to create terrain. It then chooses a random start and end point and uses Dijkstra's algorithm to find the shortest traversable path between the two so it can mark the path for the player. (If none can be found, it will carve a straight trench between a random point reachable from the start and a random point that can reach the end.) Then if the path is too long to reach (decided by the difficulty of the level), it will move the flag farther forward. The towers found in every fifth level are created by a generation algorithm of my own design which prefers to create buildings that twist back around toward themselves.\n\nMade in a team with Groverburger using his custom javascript game engine.",
+                    "description": "Ludum Dare 51 Jam entry.\n\nIn this first-person shooter/parkour game, you have ten seconds to reach the end of a series of procedurally generated levels.\n\nMade on a team with Groverburger using his custom javascript game engine. Groverburger did most of the gameplay while I did the procedural generation. It uses layered cellular automata to create random caves and the diamond-square algorithm to create terrain. It then chooses a random start and end point and uses Dijkstra's algorithm to find the shortest traversable path between the two so it can mark the path for the player. (If none can be found, it will carve a straight trench between a random point reachable from the start and a random point that can reach the end.) Then if the path is too long to reach (decided by the difficulty of the level), it will move the flag farther forward. The towers found in every fifth level are created by a generation algorithm of my own design which prefers to create buildings that twist back around toward themselves.",
                     "dateDisplay": "October 2022",
                     "links": [
                         {
