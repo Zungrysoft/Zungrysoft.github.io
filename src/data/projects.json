@@ -111,7 +111,12 @@
                     "image": "dominion_cards.png",
                     "description": "Fine-tuned GPT-2 model that generates card designs for the board game Dominion. I grabbed a raw table of cards from the Dominion wiki and used a Python script to reformat it to be more human-readable and shuffle the data. The model was trained on this data using Huggingface's Transformer library.\n\nThe examples on the right were cherry-picked from a total of four 1000-token batches, then were recreated using shardofhonor's Dominion card image generator.",
                     "dateDisplay": "September 2023",
-                    "links": []
+                    "links": [
+                        {
+                            "text": "Try it here",
+                            "url": "https://colab.research.google.com/drive/170R_yCxsDcmOdMoaS-ytVEauIDVQfJVB?usp=sharing"
+                        }
+                    ]
                 },
                 {
                     "title": "Voxel Transformer Experiment",
