@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.a81c7a6b.css",
-    "main.js": "/static/js/main.196ea36e.js",
+    "main.js": "/static/js/main.29a1a39d.js",
     "static/js/787.27ee33f7.chunk.js": "/static/js/787.27ee33f7.chunk.js",
+    "static/media/dominion_cards.png~": "/static/media/dominion_cards.8b8226229dbdade40eff.png~",
+    "static/media/dominion_cards.png": "/static/media/dominion_cards.3a608f43c721351d3c5d.png",
     "static/media/even_worse_place.png": "/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
     "static/media/rocket_crusade.png": "/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
     "static/media/crimson_consequence.png": "/static/media/crimson_consequence.48fbf158514a5b17ad6c.png",
@@ -23,15 +25,16 @@
     "static/media/itembuilder.png": "/static/media/itembuilder.95d02e8c03ba26c18e9f.png",
     "static/media/itembuilderstudio.png": "/static/media/itembuilderstudio.ad422167fda086c324bf.png",
     "static/media/voxel_terrain.png": "/static/media/voxel_terrain.0b4ca30dc8c58600e718.png",
+    "static/media/blob.png": "/static/media/blob.bae1d99108b820dd4e2f.png",
     "static/media/itembuildergui.png": "/static/media/itembuildergui.af76029e25fe3d72b070.png",
     "static/media/person_guy.png": "/static/media/person_guy.bee61b01e4eb05f8312c.png",
     "index.html": "/index.html",
     "main.a81c7a6b.css.map": "/static/css/main.a81c7a6b.css.map",
-    "main.196ea36e.js.map": "/static/js/main.196ea36e.js.map",
+    "main.29a1a39d.js.map": "/static/js/main.29a1a39d.js.map",
     "787.27ee33f7.chunk.js.map": "/static/js/787.27ee33f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a81c7a6b.css",
-    "static/js/main.196ea36e.js"
+    "static/js/main.29a1a39d.js"
   ]
 }
