@@ -162,6 +162,30 @@
             "description": "",
             "projects": [
                 {
+                    "title": "Air-Raid Architect",
+                    "image": "air_raid_architect.png",
+                    "description": "Ludum Dare 54 Jam Entry.\n\nTake to the skies in this voxel-based arena shooter! Fight killer wasps who want to tear down your sky fortress. After each round of enemies, you can spend collected wasp-honey to build new structures.\n\nMade on a team with Groverburger using my custom voxel engine.",
+                    "dateDisplay": "July 2023",
+                    "links": [
+                        {
+                            "text": "Play the game in browser here",
+                            "url": "https://zungrysoft.github.io/ld54/"
+                        },
+                        {
+                            "text": "Ludum Dare Submission Page",
+                            "url": "https://ldjam.com/events/ludum-dare/54/air-raid-architect"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/ld54"
+                        },
+                        {
+                            "text": "Groverburger's website",
+                            "url": "https://groverburger.github.io/"
+                        }
+                    ]
+                },
+                {
                     "title": "You Are Person Guy",
                     "image": "person_guy.png",
                     "description": "GMTK 2023 Jam entry. Placed 472nd overall and 75th in enjoyment out of 6842 total submissions.\n\nA puzzle game where you can mind control your enemies. Control six different enemy types with unique abilities: Golem Guy, Fire Guy, Water Guy, Wind Guy, Ice Guy, and Vine Guy. Contains 25 challenging levels!\n\nMade on a team with Groverburger using his custom javascript game engine. He did the visual design, sound design, and menus while I did the mechanics programming, level design, and music.",
@@ -178,10 +202,6 @@
                         {
                             "text": "GitHub Repo",
                             "url": "https://github.com/Zungrysoft/gmtk2023"
-                        },
-                        {
-                            "text": "Groverburger's website",
-                            "url": "https://groverburger.github.io/"
                         }
                     ]
                 },
