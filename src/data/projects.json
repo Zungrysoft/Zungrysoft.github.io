@@ -165,7 +165,7 @@
                     "title": "Air-Raid Architect",
                     "image": "air_raid_architect.png",
                     "description": "Ludum Dare 54 Jam Entry.\n\nTake to the skies in this voxel-based arena shooter! Fight killer wasps who want to tear down your sky fortress. After each round of enemies, you can spend collected wasp-honey to build new structures.\n\nMade on a team with Groverburger using my custom voxel engine.",
-                    "dateDisplay": "July 2023",
+                    "dateDisplay": "October 2023",
                     "links": [
                         {
                             "text": "Play the game in browser here",
