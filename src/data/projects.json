@@ -14,6 +14,10 @@
                         {
                             "text": "Demonstration Video",
                             "url": "https://www.youtube.com/watch?v=giL8K5PZHFM"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/Untitled-Voxel-Engine"
                         }
                     ]
                 },
@@ -46,26 +50,6 @@
                         {
                             "text": "GitHub Repo",
                             "url": "https://github.com/Zungrysoft/SongSketchStudio"
-                        }
-                    ]
-                },
-                {
-                    "title": "ItemBuilder GUI",
-                    "image": "itembuildergui.png",
-                    "description": "An older, uglier version of ItemBuilder Studio for the 1.0 version of the datapack. Created in Flutter. I scrapped this website for the v2.0 version of the datapack so I could start fresh with a more modern framework.",
-                    "dateDisplay": "August 2021 - September 2021",
-                    "links": [
-                        {
-                            "text": "Use ItemBuilder GUI here",
-                            "url": "https://zungrysoft.github.io/ItemBuilderGui-Build/#/"
-                        },
-                        {
-                            "text": "Video Tutorial",
-                            "url": "https://www.youtube.com/watch?v=4ziKgiRIg7M"
-                        },
-                        {
-                            "text": "GitHub Repo",
-                            "url": "https://github.com/Zungrysoft/ItemBuilderGui"
                         }
                     ]
                 },
@@ -121,7 +105,7 @@
                 {
                     "title": "Voxel Transformer Experiment",
                     "image": "blob.png",
-                    "description": "VoxelGPT is a project with the goal of training a transformer model from scratch to generate Voxel-based 3D models and add onto existing ones.\n\nIn order to provide proper context for nearby Voxels, it uses a special version of positional encoding that takes into account the voxel's xyz position in space. Each token is represented by an indexed color from a limited palette. The model picks from one of these colors (including air) as its output.\n\nI am as of yet unable to get the model to learn complex patterns. While it can learn very simple patterns (like recreating a single model), it is unable to generate new models. Potential causes for this are lack of compute power for training and/or low number of training samples.\n\nImplemented using Tensorflow and Keras.",
+                    "description": "VoxelGPT is a project with the goal of training a transformer model from scratch to generate Voxel-based 3D models and add onto existing ones.\n\nIn order to provide proper context for nearby Voxels, it uses a special version of positional encoding that takes into account the voxel's xyz position in space. Each token is represented by an indexed color from a limited palette. The model picks from one of these colors (including air) as its output.\n\nI am as of yet unable to get the model to learn complex patterns. While it can learn very simple patterns (like recreating a single model), it is unable to generate new models. I theorize this is due to a lack of training examples and I am currently looking into ways to obtain/generate more.\n\nImplemented using Tensorflow and Keras.",
                     "dateDisplay": "April 2023 - Current",
                     "links": [
                         {
