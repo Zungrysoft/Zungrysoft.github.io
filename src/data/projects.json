@@ -146,6 +146,26 @@
             "description": "",
             "projects": [
                 {
+                    "title": "And Don't Open Your Mouth Again",
+                    "image": "jury_summons.png",
+                    "description": "Ludum Dare 55 Jam Entry.\n\nAnd Don’t Open Your Mouth Again is a logical deduction text adventure game. Ten people have answered their jury summons in order to decide the fate of a man accused of first degree murder and assaulting a police officer. Your job is to interview the jurors and read their deliberations to deduce which combination of the four of them will deliver a verdict of not guilty!\n\nThis is a very experimental game that makes use of semi-procedural dialogue. Different jurors will take the deliberations in different directions by having different responses to certain arguments or questions.",
+                    "dateDisplay": "April 2024",
+                    "links": [
+                        {
+                            "text": "Play the game in browser here",
+                            "url": "https://zungrysoft.github.io/ld55/"
+                        },
+                        {
+                            "text": "Ludum Dare Submission Page",
+                            "url": "https://ldjam.com/events/ludum-dare/55/and-dont-open-your-mouth-again"
+                        },
+                        {
+                            "text": "GitHub Repo",
+                            "url": "https://github.com/Zungrysoft/ld55"
+                        }
+                    ]
+                },
+                {
                     "title": "Air-Raid Architect",
                     "image": "air_raid_architect.png",
                     "description": "Ludum Dare 54 Jam Entry. Placed 154th overall, 135th in fun, and 94th in innovation out of 1597 total submissions.\n\nTake to the skies in this voxel-based arena shooter! Fight killer wasps who want to tear down your sky fortress. After each round of enemies, you can spend collected wasp-honey to build new structures.\n\nMade on a team with Groverburger using my custom voxel engine.",
