@@ -5,33 +5,26 @@ import ProjectPage from './pages/ProjectPage.js';
 
 import Navbar from './components/Navbar.js';
 
-import projectData from './data/projects.json';
+import pageData from './data/pages.json';
 
 function App() {
-    const [page, setPage] = useState(0);
+    const [pageIndex, setPageIndex] = useState(0);
+    const pages = pageData.filter(x => !x.hidden);
     return (
         <div className="App">
             <div className="header-background">
                 <h1>Zungrysoft Entertainment Inc.</h1>
             </div>
             <Navbar
-                projectData={projectData}
-                startVal={page}
-                onChange={setPage}
+                pages={pages}
+                startVal={pageIndex}
+                onChange={setPageIndex}
             />
             <header className="App-header">
                 <div>
-                    {/* Pages */}
-                    {/* {page==-1 ?
-                        <MainPage
-                            data={data}
-                            onChange={setData}
-                            version={settings.version}
-                        />
-                    :<div/>} */}
-                    {page>=0 ?
+                    {pageIndex >=0 ?
                         <ProjectPage
-                            data={projectData.pages[page]}
+                            data={pages[pageIndex]}
                         />
                     :<div/>}
                 </div>

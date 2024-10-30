@@ -1,10 +1,9 @@
 import './Navbar.css';
 
-
-function Navbar({ projectData, startVal, onChange }) {
+function Navbar({ pages, startVal, onChange }) {
     return(
         <div className="tab">
-            {projectData.pages.map((val,index) =>
+            {pages.map((val, index) =>
                 <button
                     className={startVal === index ? "tab-link active" : "tab-link"}
                     onClick={(e) => {
