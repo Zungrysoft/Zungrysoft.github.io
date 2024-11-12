@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a81c7a6b.css",
-    "main.js": "/static/js/main.f812e4fa.js",
+    "main.css": "/static/css/main.6ec2e6dd.css",
+    "main.js": "/static/js/main.2ca54cfe.js",
     "static/js/787.27ee33f7.chunk.js": "/static/js/787.27ee33f7.chunk.js",
     "static/media/dominion_cards.png": "/static/media/dominion_cards.3a608f43c721351d3c5d.png",
+    "static/media/lqdm.png-autosave.kra": "/static/media/lqdm.png-autosave.b28db7c6035593eba79f.kra",
     "static/media/even_worse_place.png": "/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
     "static/media/rocket_crusade.png": "/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
     "static/media/crimson_consequence.png": "/static/media/crimson_consequence.48fbf158514a5b17ad6c.png",
+    "static/media/lqdm.png": "/static/media/lqdm.b22cd891e2482acc9a28.png",
     "static/media/watercourse.png": "/static/media/watercourse.9ec383d9f373ddf87044.png",
     "static/media/dredge_arena.png": "/static/media/dredge_arena.2cdc39c45ce2d8c618c4.png",
     "static/media/coffee_quake.png": "/static/media/coffee_quake.031b517e6718bf500d6d.png",
+    "static/media/lqsp.png": "/static/media/lqsp.64688adda8e413f79c0b.png",
     "static/media/downfire.png": "/static/media/downfire.e713b4bfdb307099ac6a.png",
     "static/media/watmm.png": "/static/media/watmm.a8361e9a246f3b049ba9.png",
     "static/media/devil.png": "/static/media/devil.9bf3149ca770c94d93b8.png",
@@ -18,7 +21,9 @@
     "static/media/infinite_garage.png": "/static/media/infinite_garage.c5ef71cd3d4a33efb874.png",
     "static/media/ulgreth.png": "/static/media/ulgreth.9bbf262507de8558ad19.png",
     "static/media/sorting_center_savant.png": "/static/media/sorting_center_savant.8848ed30f3aab4c744a3.png",
+    "static/media/lqdm.png~": "/static/media/lqdm.845abe6f854d370491ce.png~",
     "static/media/starshot.png": "/static/media/starshot.2fe7500325f728b4168f.png",
+    "static/media/lqsp.png~": "/static/media/lqsp.2f47549fcbf60d5edc72.png~",
     "static/media/mobile_midi.png": "/static/media/mobile_midi.32a96c0611bc5f9da429.png",
     "static/media/organized_crime.png": "/static/media/organized_crime.b34d30b02a9046c613cb.png",
     "static/media/air_raid_architect.png": "/static/media/air_raid_architect.830eddc123c12b69ed2a.png",
@@ -32,12 +37,12 @@
     "static/media/layers.png": "/static/media/layers.363a2e0b4a09d79a32bf.png",
     "static/media/person_guy.png": "/static/media/person_guy.bee61b01e4eb05f8312c.png",
     "index.html": "/index.html",
-    "main.a81c7a6b.css.map": "/static/css/main.a81c7a6b.css.map",
-    "main.f812e4fa.js.map": "/static/js/main.f812e4fa.js.map",
+    "main.6ec2e6dd.css.map": "/static/css/main.6ec2e6dd.css.map",
+    "main.2ca54cfe.js.map": "/static/js/main.2ca54cfe.js.map",
     "787.27ee33f7.chunk.js.map": "/static/js/787.27ee33f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81c7a6b.css",
-    "static/js/main.f812e4fa.js"
+    "static/css/main.6ec2e6dd.css",
+    "static/js/main.2ca54cfe.js"
   ]
 }
