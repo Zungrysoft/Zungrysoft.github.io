@@ -116,6 +116,7 @@ h4 {
 
 .inner-box {
     position: relative;
+    flex: 1;
 }
 
 .header-background {
