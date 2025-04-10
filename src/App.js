@@ -25,6 +25,7 @@ function App() {
                     {pageIndex >=0 ?
                         <ProjectPage
                             data={pages[pageIndex]}
+                            pageIndex={pageIndex}
                         />
                     :<div/>}
                 </div>

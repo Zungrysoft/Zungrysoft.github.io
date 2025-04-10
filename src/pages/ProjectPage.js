@@ -15,7 +15,7 @@ function getEscherDownloads(setEscherDownloads) {
         });
 }
 
-function ProjectPage({ data }) {
+function ProjectPage({ data, pageIndex }) {
     const [escherDownloads, setEscherDownloads] = useState("over 12000");
 
     // Validation
@@ -30,8 +30,8 @@ function ProjectPage({ data }) {
         <div>
             <h2>{data.title}</h2>
             <h4>{data.description}</h4>
-            {data.projects.map((val,index) =>
-                <Project projectData={val} escherDownloads={escherDownloads}/>
+            {data.projects.map((val, index) =>
+                <Project key={`${pageIndex}_${index}`} projectData={val} escherDownloads={escherDownloads}/>
             )}
         </div>
     );

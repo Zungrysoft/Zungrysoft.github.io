@@ -24,7 +24,7 @@ function Project({ projectData, escherDownloads }) {
                 <h4>{projectData.title}</h4>
                 <p>{dataFormat(projectData.description, escherDownloads)}</p>
                 {projectData.links ? projectData.links.map((link, index) =>
-                    <div>
+                    <div key={index}>
                         <a target="blank" rel="noopener noreferrer" href={link.url}>{link.text}</a>
                     </div>
                 ):<div/>}
