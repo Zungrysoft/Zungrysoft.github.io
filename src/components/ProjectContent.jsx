@@ -1,19 +1,18 @@
 import { Box } from "@mui/material";
-import { useCallback } from "react";
+import { useEscherDownloads } from "../context/EscherDownloadsContext";
 
 function ProjectContent({ project }) {
-    const escherDownloads = 30;
+    const  { escherDownloads } = useEscherDownloads();
 
-    const dataFormat = useCallback((str) => {
-        let ret = str = str.replaceAll("**escher_downloads**", escherDownloads);
-    
-        return ret;
-    }, [escherDownloads])
+    let projectDescription = project.description;
+    if (projectDescription.includes('**escher_downloads**')) {
+        projectDescription = projectDescription.replaceAll("**escher_downloads**", escherDownloads);
+    }
 
     return(
         <Box sx={{ flex: 1, padding: 2, height: '100%', position: 'relative' }}>
             <h4 style={{ marginBottom: '16px' }}>{project.title}</h4>
-            <p>{dataFormat(project.description, escherDownloads)}</p>
+            <p>{projectDescription}</p>
             {project.links ? project.links.map((link, index) =>
                 <div key={index}>
                     <a target="blank" rel="noopener noreferrer" href={link.url}>{link.text}</a>

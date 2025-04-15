@@ -13,7 +13,7 @@ function Project({ project }) {
     }
 
     return(
-        <Box sx={{ display: 'flex', backgroundColor: BACKGROUND_1, marginBottom: 2, height: '100%' }}>
+        <Box sx={{ display: 'flex', backgroundColor: BACKGROUND_1, marginBottom: '16px', height: '100%' }}>
             <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
                 <ProjectContent project={project}/>
             </Box>
