@@ -28,10 +28,10 @@ function ProjectPage({ data, pageIndex }) {
 
     return (
         <div>
-            <h2>{data.title}</h2>
-            <h4>{data.description}</h4>
+            <h2 style={{ margin: '16px' }}>{data.title}</h2>
+            <h4 style={{ marginBottom: '16px' }}>{data.description}</h4>
             {data.projects.map((val, index) =>
-                <Project key={`${pageIndex}_${index}`} projectData={val} escherDownloads={escherDownloads}/>
+                <Project key={`${pageIndex}_${index}`} project={val} escherDownloads={escherDownloads}/>
             )}
         </div>
     );

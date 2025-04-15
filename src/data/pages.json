@@ -146,6 +146,22 @@
         "description": "",
         "projects": [
             {
+                "title": "AM I ORTHODOX?",
+                "image": "orthodox2.png",
+                "description": "Ludum Dare 57 Jam Entry.\n\nA game where you ask questions using a limited set of words to uncover the truth about why you are here and who you are talking to.\n\nMusic by Wyatt Cannon.",
+                "dateDisplay": "April 2025",
+                "links": [
+                    {
+                        "text": "Play the game in browser here",
+                        "url": "https://zungrysoft.github.io/ld57"
+                    },
+                    {
+                        "text": "Ludum Dare Submission Page",
+                        "url": "https://ldjam.com/events/ludum-dare/57/am-i-orthodox"
+                    }
+                ]
+            },
+            {
                 "title": "Growbot",
                 "image": "growbot.png",
                 "description": "GMTK 2024 Jam entry. \n\nA puzzle-platformer Metroidvania about growing plants. Explore the cavern for new tools and plants. Then use your tools to build automated farms and generate money!",

@@ -5,7 +5,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin: 8px;
 }
 
 .App-link {
@@ -32,27 +31,7 @@
 
 .label {
     user-select: none;
-    margin: 0px;
     margin-left: 5px;
-}
-
-.input-item {
-    margin: 5px;
-    margin-top: -3px;
-}
-
-.input-box-long {
-    width: 280px
-}
-
-.input-box-lore {
-    width: 300px;
-    height: 80px;
-}
-
-.input-checkbox {
-    height: 20px;
-    width: 20px;
 }
 
 option:disabled{
@@ -60,89 +39,38 @@ option:disabled{
     color:#556074;
 }
 
-.command-output {
-    display: inline-flex;
-    border: 2px solid black;
-    margin: 3px;
-}
-
-.command-text {
-    margin-top: 0px;
-    float:left;
-}
-
 p {
     font-size: 18px;
-    margin: 10px;
     white-space: pre-line;
+    margin: 0px;
 }
 
 a {
     font-size: 18px;
     color: #bebdb2;
-    margin: 10px;
 }
 
 h1 {
     font-size: 48px;
-    margin-bottom: 10px;
-    margin-top: 25px;
     text-align: center;
     color: #a2a1a7;
+    margin: 0px;
 }
 
 h2 {
     font-size: 35px;
-    margin-bottom: 10px;
-    margin-top: 25px;
     text-align: center;
     color: #a2a1a7;
+    margin: 0px;
 }
 
 h4 {
     font-size: 26px;
-    margin-bottom: 10px;
-    margin-top: 25px;
     text-align: center;
     color: #a2a1a7;
-}
-
-.bounding-box {
-    display: flex;
-    border: 2px solid black;
-    margin: 15px;
-    background-color: #21252c;
-}
-
-.inner-box {
-    position: relative;
-    flex: 1;
-}
-
-.header-background {
-    background-color: #21252c;
-    display: flex;
-    justify-content: center;
-}
-
-.date {
-    font-size: 18px;
-    color:#7f838b;
-    font-style: italic;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
+    margin: 0px;
 }
 
 img {
-    align-self: start;
-}
-
-.sideImage {
-    align-self: start;
-    max-width: 33%;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    margin-bottom: -2px;
+    vertical-align: middle;
 }
