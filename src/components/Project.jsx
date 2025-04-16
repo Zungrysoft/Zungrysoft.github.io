@@ -1,9 +1,12 @@
-import { Box } from "@mui/material";
+import { Box, useMediaQuery, useTheme } from "@mui/material";
 import ProjectGallery from "./ProjectGallery";
 import { BACKGROUND_1 } from "../config/colors";
 import ProjectContent from "./ProjectContent";
 
 function Project({ project }) {
+    const theme = useTheme();
+    const isCompact = useMediaQuery(theme.breakpoints.down('sm'));
+
     let images = undefined;
     if (project.images) {
         images = project.images
@@ -15,11 +18,13 @@ function Project({ project }) {
     return(
         <Box sx={{
             display: 'flex',
+            flexDirection: isCompact ? 'column' : 'row',
             backgroundColor: BACKGROUND_1,
             marginBottom: '16px',
             marginLeft: '16px',
             marginRight: '16px',
             height: '100%',
+            maxWidth: '1920px',
         }}>
             <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
                 <ProjectContent project={project}/>
