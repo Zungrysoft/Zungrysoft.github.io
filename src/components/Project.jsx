@@ -22,14 +22,14 @@ function Project({ project }) {
             backgroundColor: BACKGROUND_1,
             marginBottom: '16px',
             height: '100%',
-            width: 'min(1920px, calc(100vw - 48px))',
+            width: '100%',
             justifySelf: 'center',
         }}>
             <Box sx={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', justifyContent: 'start' }}>
                 <ProjectContent project={project}/>
             </Box>
             {images && 
-                <Box sx={{ flex: 0.7, minWidth: 0 }}>
+                <Box sx={{ flex: 0.7, minWidth: 0, maxWidth: '100%' }}>
                     <ProjectGallery images={images}/>
                 </Box>
             }
