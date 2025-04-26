@@ -147,7 +147,10 @@
         "projects": [
             {
                 "title": "AM I ORTHODOX?",
-                "image": "orthodox2.png",
+                "images": [
+                    "orthodox2.png",
+                    "orthodox.png"
+                ],
                 "description": "Ludum Dare 57 Jam Entry.\n\nA game where you ask questions using a limited set of words to uncover the truth about why you are here and who you are talking to.\n\nMusic by Wyatt Cannon.",
                 "dateDisplay": "April 2025",
                 "links": [
@@ -314,8 +317,29 @@
         "projects": [
             {
                 "title": "LibreQuake Singleplayer Maps",
-                "image": "lqsp.png",
-                "description": "Singleplayer maps I made for the LibreQuake project.\n\ne1m2 - The Feudal Anomaly - (Pictured top left) A multi-level castle that introduces the player to the game's mechanics and enemy types.\ne1m3 - Rogue's Passage - (Pictured top right) A dark dungeon with tricky combat in tight areas.\ne1m4 - Dismal Shores - (Pictured bottom left) A lakeside castle with a weaving, self-intersecting structure.\ne1m5 - Gloomliths - Two monolithic fortresses filled with secrets and alternate paths.\ne4m1 - Damnation Station - (Pictured bottom right) An underground base where the player has a choice between two weapons.",
+                "images": [
+                    "lq_sp_e1m1_1.png",
+                    "lq_sp_e1m1_2.png",
+                    "lq_sp_e1m2_1.png",
+                    "lq_sp_e1m2_2.png",
+                    "lq_sp_e1m2_3.png",
+                    "lq_sp_e1m2_4.png",
+                    "lq_sp_e1m3_1.png",
+                    "lq_sp_e1m3_2.png",
+                    "lq_sp_e1m3_3.png",
+                    "lq_sp_e1m4_1.png",
+                    "lq_sp_e1m4_2.png",
+                    "lq_sp_e1m4_3.png",
+                    "lq_sp_e1m4_4.png",
+                    "lq_sp_e1m5_1.png",
+                    "lq_sp_e1m5_2.png",
+                    "lq_sp_e1m5_3.png",
+                    "lq_sp_e4m1_1.png",
+                    "lq_sp_e4m1_2.png",
+                    "lq_sp_e4m1_3.png",
+                    "lq_sp_e4m1_4.png"
+                ],
+                "description": "Singleplayer maps I made for the LibreQuake project.\n\ne1m1 - Rats Behind Bars - A trainyard and military base. Co-created by aDaya.\ne1m2 - The Feudal Anomaly - A multi-level castle that introduces the player to the game's mechanics and enemy types.\ne1m3 - Rogue's Passage - A dark dungeon with tricky combat in tight areas.\ne1m4 - Dismal Shores - A lakeside castle with a weaving, self-intersecting structure.\ne1m5 - Gloomliths - Two monolithic fortresses filled with secrets and alternate paths.\ne4m1 - Damnation Station - An underground base where the player has a choice between two weapons.",
                 "dateDisplay": "November 2019 - Current",
                 "links": [
                     {
@@ -326,8 +350,32 @@
             },
             {
                 "title": "LibreQuake Deathmatch Maps",
-                "image": "lqdm.png",
-                "description": "Thirteen deathmatch maps I made for the LibreQuake project.\n\nlqdm1 - Solstice - (Pictured top left) A small winter castle map designed to be an easy to understand warm-up map for players to load into by default.\nlqdm2 - Torture Pit - A vertically stacked dungeon designed around the game's lower-tier weapons.\nlqdm3 - Hyperborea - A greek temple with jump pads.\nlqdm4 - Psychofuge - (Pictured top right) An outdoor lava fortress with strong items in the dangerous lower areas.\nlqdm5 - Transport Tubes - A shipping yard with locking air tubes that carry the player around the map.\nlqdm6 - Ghost Quarter - (Pictured bottom left) A castle map where weapons and armor types unlock over the course of the match.\nlqdm7 - Boomstick Basement - A claustrophobic map with lots of winding tunnels and alternate routes.\nlqdm8 - Alichar Sector - A very vertical map with a tall elevator that players must ride to access the red armor.\nlqdm9 - The Outlands - A Mayan temple map with special doors that can only be opened with the grenade launcher weapon.\nlqdm10 - Lucifer's Gambit - (Pictured bottom right) A temple map with lava and interesting verticality.\nlqdm11 - The Wicked Night - A base map built around a central nexus.\nlqdm12 - Javelin - A map with a respawning key players can use to permanently unlock new rooms and powerups.\nlqdm13 - Death Provides No Return - A void map with lots of jump pads.",
+                "images": [
+                    "lq_dm_lqdm1_1.png",
+                    "lq_dm_lqdm1_2.png",
+                    "lq_dm_lqdm2_1.png",
+                    "lq_dm_lqdm2_2.png",
+                    "lq_dm_lqdm4_1.png",
+                    "lq_dm_lqdm4_2.png",
+                    "lq_dm_lqdm4_3.png",
+                    "lq_dm_lqdm6_1.png",
+                    "lq_dm_lqdm6_2.png",
+                    "lq_dm_lqdm6_3.png",
+                    "lq_dm_lqdm7_1.png",
+                    "lq_dm_lqdm7_2.png",
+                    "lq_dm_lqdm8_1.png",
+                    "lq_dm_lqdm8_2.png",
+                    "lq_dm_lqdm8_3.png",
+                    "lq_dm_lqdm9_1.png",
+                    "lq_dm_lqdm9_2.png",
+                    "lq_dm_lqdm9_3.png",
+                    "lq_dm_lqdm9_4.png",
+                    "lq_dm_lqdm9_5.png",
+                    "lq_dm_lqdm10_1.png",
+                    "lq_dm_lqdm10_2.png",
+                    "lq_dm_lqdm10_3.png"
+                ],
+                "description": "Thirteen deathmatch maps I made for the LibreQuake project.\n\nlqdm1 - Solstice - A small winter castle map designed to be an easy to understand warm-up map for players to load into by default.\nlqdm2 - Torture Pit - A vertically stacked dungeon designed around the game's lower-tier weapons.\nlqdm3 - Hyperborea - A greek temple with jump pads.\nlqdm4 - Psychofuge - An outdoor lava fortress with strong items in the dangerous lower areas.\nlqdm5 - Transport Tubes - A shipping yard with locking air tubes that carry the player around the map.\nlqdm6 - Ghost Quarter - A castle map where weapons and armor types unlock over the course of the match.\nlqdm7 - Boomstick Basement - A claustrophobic map with lots of winding tunnels and alternate routes.\nlqdm8 - Alichar Sector - A very vertical map with a tall elevator that players must ride to access the red armor.\nlqdm9 - The Outlands - A Mayan temple map with special doors that can only be opened with the grenade launcher weapon.\nlqdm10 - Lucifer's Gambit - A temple map with lava and interesting verticality.\nlqdm11 - The Wicked Night - A base map built around a central nexus.\nlqdm12 - Javelin - A map with a respawning key players can use to permanently unlock new rooms and powerups.\nlqdm13 - Death Provides No Return - A void map with lots of jump pads.",
                 "dateDisplay": "December 2019 - Current",
                 "links": [
                     {

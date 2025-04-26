@@ -1,4 +1,6 @@
 import { Box } from "@mui/material";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = require.context('../../public/images', true);
 
@@ -12,10 +14,20 @@ function getImage(str) {
 }
 
 function ProjectGallery({ images, title }) {
+    console.log(images)
+    const imageList = images.map(x => (
+        {
+            original: getImage(x),
+        }
+    ))
+
     return(
-        <Box sx={{ flex: 0.7 }}>
-            <img style={{ width: '100%' }} src={getImage(images[0])} alt={title}/>
-        </Box>
+        <ImageGallery
+            items={imageList}
+            showBullets={imageList.length > 1}
+            showPlayButton={false}
+            slideDuration={140}
+        />
     )
 }
 

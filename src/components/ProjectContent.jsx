@@ -11,7 +11,7 @@ function ProjectContent({ project }) {
 
     return(
         <>
-            <Box sx={{ flex: 1, padding: 2 }}>
+            <Box sx={{ flex: 0, padding: 2 }}>
                 <h4 style={{ marginBottom: '16px' }}>{project.title}</h4>
                 <p>{projectDescription}</p>
             </Box>
@@ -26,7 +26,6 @@ function ProjectContent({ project }) {
                     bottom: '8px',
                     right: '16px',
                     fontStyle: 'italic',
-                    shapeOutside: 'border-box',
                 }}>{project.dateDisplay}</p>
             </Box>
         </>
