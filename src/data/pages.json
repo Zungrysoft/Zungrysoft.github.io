@@ -166,7 +166,13 @@
             },
             {
                 "title": "Growbot",
-                "image": "growbot.png",
+                "images": [
+                    "growbot_title.png",
+                    "growbot1.png",
+                    "growbot2.png",
+                    "growbot3.png",
+                    "growbot4.png"
+                ],
                 "description": "GMTK 2024 Jam entry. \n\nA puzzle-platformer Metroidvania about growing plants. Explore the cavern for new tools and plants. Then use your tools to build automated farms and generate money!",
                 "dateDisplay": "August 2024",
                 "links": [
@@ -206,7 +212,14 @@
             },
             {
                 "title": "Air-Raid Architect",
-                "image": "air_raid_architect.png",
+                "images": [
+                    "airraid_title.png",
+                    "airraid1.png",
+                    "airraid2.png",
+                    "airraid3.png",
+                    "airraid4.png",
+                    "airraid5.png"
+                ],
                 "description": "Ludum Dare 54 Jam Entry. Placed 154th overall, 135th in fun, and 94th in innovation out of 1597 total submissions.\n\nTake to the skies in this voxel-based arena shooter! Fight killer wasps who want to tear down your sky fortress. After each round of enemies, you can spend collected wasp-honey to build new structures.\n\nMade on a team with Groverburger using my custom voxel engine.",
                 "dateDisplay": "October 2023",
                 "links": [
@@ -333,7 +346,6 @@
                     "lq_sp_e1m4_4.png",
                     "lq_sp_e1m5_1.png",
                     "lq_sp_e1m5_2.png",
-                    "lq_sp_e1m5_3.png",
                     "lq_sp_e4m1_1.png",
                     "lq_sp_e4m1_2.png",
                     "lq_sp_e4m1_3.png",

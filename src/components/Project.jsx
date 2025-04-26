@@ -30,7 +30,7 @@ function Project({ project }) {
             </Box>
             {images && 
                 <Box sx={{ flex: 0.7, minWidth: 0 }}>
-                    <ProjectGallery images={images} title={project.title} />
+                    <ProjectGallery images={images}/>
                 </Box>
             }
             
