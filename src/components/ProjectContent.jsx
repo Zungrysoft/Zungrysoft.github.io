@@ -1,7 +1,9 @@
-import { Box } from "@mui/material";
+import { Box, useMediaQuery, useTheme } from "@mui/material";
 import { useEscherDownloads } from "../context/EscherDownloadsContext";
 
 function ProjectContent({ project }) {
+    const theme = useTheme();
+    const isCompact = useMediaQuery(theme.breakpoints.down('sm'));
     const  { escherDownloads } = useEscherDownloads();
 
     let projectDescription = project.description;
@@ -15,7 +17,14 @@ function ProjectContent({ project }) {
                 <h4 style={{ marginBottom: '16px' }}>{project.title}</h4>
                 <p>{projectDescription}</p>
             </Box>
-            <Box sx={{ flex: 1, padding: 2, paddingTop: 0, minHeight: '16px', position: 'relative' }}>
+            <Box sx={{
+                flex: 1,
+                padding: 2,
+                paddingTop: 0,
+                paddingBottom: isCompact ? 5 : 2,
+                minHeight: '16px',
+                position: 'relative',
+            }}>
                 {project.links ? project.links.map((link, index) =>
                     <div key={index}>
                         <a target="blank" rel="noopener noreferrer" href={link.url}>{link.text}</a>
