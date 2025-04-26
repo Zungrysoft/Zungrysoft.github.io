@@ -26,7 +26,7 @@ function Project({ project }) {
             height: '100%',
             maxWidth: '1920px',
         }}>
-            <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'start' }}>
                 <ProjectContent project={project}/>
             </Box>
             {project.image && 
