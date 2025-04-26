@@ -37,6 +37,7 @@ function ProjectGallery({ images }) {
                 showNav={isHovered || isCompact}
                 showFullscreenButton={isHovered && !isCompact}
                 disableKeyDown={true}
+                disableSwipe={imageList.length <= 1}
             />
         </div>
     )

@@ -161,6 +161,10 @@
                     {
                         "text": "Ludum Dare Submission Page",
                         "url": "https://ldjam.com/events/ludum-dare/57/am-i-orthodox"
+                    },
+                    {
+                        "text": "GitHub Repo",
+                        "url": "https://github.com/Zungrysoft/ld57"
                     }
                 ]
             },
