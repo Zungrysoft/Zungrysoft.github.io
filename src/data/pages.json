@@ -151,12 +151,12 @@
                     "orthodox2.png",
                     "orthodox.png"
                 ],
-                "description": "Ludum Dare 57 Jam Entry.\n\nA game where you ask questions using a limited set of words to uncover the truth about why you are here and who you are talking to.\n\nMusic by Wyatt Cannon.",
+                "description": "Ludum Dare 57 Jam Entry. Placed 34th overall, 2nd in innovation, and 10th in mood out of 1181 total submissions.\n\nA puzzle game where you ask questions using a limited set of words to unlock more words and uncover the truth about who you are.\n\nMusic by Wyatt Cannon.",
                 "dateDisplay": "April 2025",
                 "links": [
                     {
                         "text": "Play the game in browser here",
-                        "url": "https://zungrysoft.github.io/ld57"
+                        "url": "https://zungrysoft.github.io/AM-I-ORTHODOX"
                     },
                     {
                         "text": "Ludum Dare Submission Page",
@@ -164,7 +164,7 @@
                     },
                     {
                         "text": "GitHub Repo",
-                        "url": "https://github.com/Zungrysoft/ld57"
+                        "url": "https://github.com/Zungrysoft/AM-I-ORTHODOX"
                     }
                 ]
             },
