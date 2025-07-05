@@ -8,7 +8,7 @@ function ProjectPage({ data, pageIndex }) {
 
     useEffect(() => {
         fetchEscherDownloads();
-    }, []);
+    }, [fetchEscherDownloads]);
 
     return (
         <Box sx={{ width: 'min(1920px, calc(100vw - 48px))' }}>

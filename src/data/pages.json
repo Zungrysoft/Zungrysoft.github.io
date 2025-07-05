@@ -371,6 +371,9 @@
                     "lq_dm_lqdm1_2.png",
                     "lq_dm_lqdm2_1.png",
                     "lq_dm_lqdm2_2.png",
+                    "lq_dm_lqdm3_1.png",
+                    "lq_dm_lqdm3_2.png",
+                    "lq_dm_lqdm3_3.png",
                     "lq_dm_lqdm4_1.png",
                     "lq_dm_lqdm4_2.png",
                     "lq_dm_lqdm4_3.png",
@@ -624,6 +627,7 @@
         "tab": "Music",
         "title": "Music and Production",
         "description": "",
+        "hidden": true,
         "projects": [
             {
                 "title": "WATMM Competition Submissions",
