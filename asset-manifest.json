@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.5a286db2.css",
-    "main.js": "/static/js/main.be8f60bd.js",
+    "main.js": "/static/js/main.38973238.js",
     "static/js/453.cc6f94aa.chunk.js": "/static/js/453.cc6f94aa.chunk.js",
     "static/media/dominion_cards.png": "/static/media/dominion_cards.3a608f43c721351d3c5d.png",
     "static/media/lqdm.png-autosave.kra": "/static/media/lqdm.png-autosave.b28db7c6035593eba79f.kra",
-    "static/media/growbot4.png-autosave.kra": "/static/media/growbot4.png-autosave.59e67c4ad7c1845383bf.kra",
     "static/media/even_worse_place.png": "/static/media/even_worse_place.0ade5ac4cf321b91046b.png",
     "static/media/rocket_crusade.png": "/static/media/rocket_crusade.4a084d1c3888e69e8903.png",
     "static/media/crimson_consequence.png": "/static/media/crimson_consequence.48fbf158514a5b17ad6c.png",
@@ -14,13 +13,16 @@
     "static/media/coffee_quake.png": "/static/media/coffee_quake.031b517e6718bf500d6d.png",
     "static/media/lq_sp_e1m4_3.png": "/static/media/lq_sp_e1m4_3.5e80a60462da725bdf67.png",
     "static/media/lq_sp_e1m2_1.png": "/static/media/lq_sp_e1m2_1.9a597c1c8a69dbcf168f.png",
+    "static/media/lq_dm_lqdm5_2.png": "/static/media/lq_dm_lqdm5_2.a38b8308e01a379209d1.png",
     "static/media/lq_sp_e1m1_1.png": "/static/media/lq_sp_e1m1_1.c869f55678ddfed42fb8.png",
     "static/media/lq_sp_e1m4_2.png": "/static/media/lq_sp_e1m4_2.95f9cf6dfdf7ce55e4d1.png",
     "static/media/lq_dm_lqdm4_2.png": "/static/media/lq_dm_lqdm4_2.83f6b5ac58930fabf91f.png",
     "static/media/downfire.png": "/static/media/downfire.e713b4bfdb307099ac6a.png",
     "static/media/lq_dm_lqdm8_2.png": "/static/media/lq_dm_lqdm8_2.2e5c78be9c4eecaf420e.png",
     "static/media/watmm.png": "/static/media/watmm.a8361e9a246f3b049ba9.png",
+    "static/media/lq_dm_lqdm3_1.png": "/static/media/lq_dm_lqdm3_1.e4ae0649c37712a89542.png",
     "static/media/lq_dm_lqdm4_1.png": "/static/media/lq_dm_lqdm4_1.efd8675190dea4caad35.png",
+    "static/media/lq_dm_lqdm3_3.png": "/static/media/lq_dm_lqdm3_3.5e28e4dc6e9df9a284ab.png",
     "static/media/devil.png": "/static/media/devil.9bf3149ca770c94d93b8.png",
     "static/media/lq_dm_lqdm4_3.png": "/static/media/lq_dm_lqdm4_3.eb163a1ff6026a885783.png",
     "static/media/lq_sp_e1m2_2.png": "/static/media/lq_sp_e1m2_2.221ad3012c4be30f95e5.png",
@@ -37,11 +39,13 @@
     "static/media/lq_dm_lqdm6_2.png": "/static/media/lq_dm_lqdm6_2.af64d97adc12d5fdcb9c.png",
     "static/media/lq_dm_lqdm7_1.png": "/static/media/lq_dm_lqdm7_1.700ef30e9609515f303d.png",
     "static/media/lq_sp_e4m1_4.png": "/static/media/lq_sp_e4m1_4.2c0f616f59b5f143a001.png",
+    "static/media/lq_dm_lqdm5_1.png": "/static/media/lq_dm_lqdm5_1.16f65f1b32ea6831f7a8.png",
     "static/media/lq_dm_lqdm9_1.png": "/static/media/lq_dm_lqdm9_1.4fc7c50fad13b0be24bd.png",
     "static/media/lq_dm_lqdm1_2.png": "/static/media/lq_dm_lqdm1_2.ce9fefc760adb3e86d33.png",
     "static/media/songsketchstudio.png": "/static/media/songsketchstudio.6bd90e5639a4619b088c.png",
     "static/media/lq_sp_e1m4_4.png": "/static/media/lq_sp_e1m4_4.f00a76ea56c0d3b49efb.png",
     "static/media/lq_dm_lqdm10_3.png": "/static/media/lq_dm_lqdm10_3.03428845d4e3db1721ee.png",
+    "static/media/lq_dm_lqdm3_2.png": "/static/media/lq_dm_lqdm3_2.f791e142248c0b95524d.png",
     "static/media/lq_sp_e1m5_2.png": "/static/media/lq_sp_e1m5_2.0d34d9413a149a2cb706.png",
     "static/media/escher.png": "/static/media/escher.7c11010ab641cd1684ef.png",
     "static/media/lq_sp_e1m4_1.png": "/static/media/lq_sp_e1m4_1.e3199122f3ed5e59f75b.png",
@@ -73,7 +77,6 @@
     "static/media/airraid5.png": "/static/media/airraid5.3f94f2b3ea0b7c90fbda.png",
     "static/media/organized_crime.png": "/static/media/organized_crime.b34d30b02a9046c613cb.png",
     "static/media/airraid_title.png": "/static/media/airraid_title.b4f969766e33a09bb594.png",
-    "static/media/orthodox2.png-autosave.kra": "/static/media/orthodox2.png-autosave.4f7adbec1aab713e1189.kra",
     "static/media/itembuilder.png": "/static/media/itembuilder.95d02e8c03ba26c18e9f.png",
     "static/media/jury_summons.png": "/static/media/jury_summons.6fb8f07c61130c65bebd.png",
     "static/media/growbot2.png": "/static/media/growbot2.c3bda27811246bc5b13e.png",
@@ -92,11 +95,11 @@
     "static/media/person_guy.png": "/static/media/person_guy.bee61b01e4eb05f8312c.png",
     "index.html": "/index.html",
     "main.5a286db2.css.map": "/static/css/main.5a286db2.css.map",
-    "main.be8f60bd.js.map": "/static/js/main.be8f60bd.js.map",
+    "main.38973238.js.map": "/static/js/main.38973238.js.map",
     "453.cc6f94aa.chunk.js.map": "/static/js/453.cc6f94aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a286db2.css",
-    "static/js/main.be8f60bd.js"
+    "static/js/main.38973238.js"
   ]
 }
