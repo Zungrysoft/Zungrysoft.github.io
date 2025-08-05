@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5a286db2.css",
-    "main.js": "/static/js/main.38973238.js",
+    "main.js": "/static/js/main.789cff2d.js",
     "static/js/453.cc6f94aa.chunk.js": "/static/js/453.cc6f94aa.chunk.js",
     "static/media/dominion_cards.png": "/static/media/dominion_cards.3a608f43c721351d3c5d.png",
     "static/media/lqdm.png-autosave.kra": "/static/media/lqdm.png-autosave.b28db7c6035593eba79f.kra",
@@ -72,10 +72,14 @@
     "static/media/lqsp.png~": "/static/media/lqsp.2f47549fcbf60d5edc72.png~",
     "static/media/lq_sp_e4m1_1.png": "/static/media/lq_sp_e4m1_1.edc403480348d032bec9.png",
     "static/media/airraid1.png": "/static/media/airraid1.9efb92387a35cb51126a.png",
+    "static/media/girlgossip_3.png": "/static/media/girlgossip_3.17b55a08ff0aa7fda8b2.png",
+    "static/media/girlgossip_1.png": "/static/media/girlgossip_1.74f61861b44b2fa54864.png",
     "static/media/airraid4.png": "/static/media/airraid4.09f5178a0e82c9da7430.png",
     "static/media/mobile_midi.png": "/static/media/mobile_midi.32a96c0611bc5f9da429.png",
+    "static/media/girlgossip_title.png": "/static/media/girlgossip_title.22a337475aa3644e0d1c.png",
     "static/media/airraid5.png": "/static/media/airraid5.3f94f2b3ea0b7c90fbda.png",
     "static/media/organized_crime.png": "/static/media/organized_crime.b34d30b02a9046c613cb.png",
+    "static/media/girlgossip_2.png": "/static/media/girlgossip_2.0624cf63c870a0187e2f.png",
     "static/media/airraid_title.png": "/static/media/airraid_title.b4f969766e33a09bb594.png",
     "static/media/itembuilder.png": "/static/media/itembuilder.95d02e8c03ba26c18e9f.png",
     "static/media/jury_summons.png": "/static/media/jury_summons.6fb8f07c61130c65bebd.png",
@@ -95,11 +99,11 @@
     "static/media/person_guy.png": "/static/media/person_guy.bee61b01e4eb05f8312c.png",
     "index.html": "/index.html",
     "main.5a286db2.css.map": "/static/css/main.5a286db2.css.map",
-    "main.38973238.js.map": "/static/js/main.38973238.js.map",
+    "main.789cff2d.js.map": "/static/js/main.789cff2d.js.map",
     "453.cc6f94aa.chunk.js.map": "/static/js/453.cc6f94aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a286db2.css",
-    "static/js/main.38973238.js"
+    "static/js/main.789cff2d.js"
   ]
 }
