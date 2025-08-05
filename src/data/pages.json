@@ -146,6 +146,31 @@
         "description": "",
         "projects": [
             {
+                "title": "Girl Gossip: Revelations",
+                "images": [
+                    "girlgossip_title.png",
+                    "girlgossip_1.png",
+                    "girlgossip_2.png",
+                    "girlgossip_3.png"
+                ],
+                "description": "GMTK 2025 Jam Entry.\n\nFind out what your friends are saying behind your back! Manipulate their every action, study their every move, and hear their every word! Place hidden microphones and parse half-heard, half-said conversations to deduce information to record in your Gossip Diary. Then change the layout of the party and repeat!\n\nMade by myself and nephguy, with voice acting by him and our friends.",
+                "dateDisplay": "August 2025",
+                "links": [
+                    {
+                        "text": "Play the game in browser here",
+                        "url": "https://zungrysoft.itch.io/girl-gossip"
+                    },
+                    {
+                        "text": "GMTK Submission Page",
+                        "url": "https://itch.io/jam/gmtk-2025/rate/3779869"
+                    },
+                    {
+                        "text": "GitHub Repo",
+                        "url": "https://github.com/Zungrysoft/gmtk2025"
+                    }
+                ]
+            },
+            {
                 "title": "AM I ORTHODOX?",
                 "images": [
                     "orthodox2.png",
