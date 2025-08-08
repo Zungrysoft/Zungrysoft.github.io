@@ -38,6 +38,7 @@ function ProjectGallery({ images }) {
                 showFullscreenButton={isHovered && !isCompact}
                 disableKeyDown={true}
                 disableSwipe={imageList.length <= 1}
+                loading="lazy"
             />
         </div>
     )
