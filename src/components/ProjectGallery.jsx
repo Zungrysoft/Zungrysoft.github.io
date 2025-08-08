@@ -22,7 +22,7 @@ function ProjectGallery({ images }) {
     const imageList = images.map(x => (
         {
             original: getImage(x),
-            thumbnail: getImage(x),
+            thumbnail: getImage("thumbnails/" + x),
         }
     ))
 
