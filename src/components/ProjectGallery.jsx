@@ -23,6 +23,8 @@ function ProjectGallery({ images }) {
         {
             original: getImage(x),
             thumbnail: getImage("thumbnails/" + x),
+            loading: "lazy",
+            thumbnailLoading: "lazy",
         }
     ))
 
@@ -38,7 +40,6 @@ function ProjectGallery({ images }) {
                 showFullscreenButton={isHovered && !isCompact}
                 disableKeyDown={true}
                 disableSwipe={imageList.length <= 1}
-                loading="lazy"
             />
         </div>
     )
