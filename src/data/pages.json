@@ -146,6 +146,33 @@
         "description": "",
         "projects": [
             {
+                "title": "Rocky Mountain Marbles",
+                "images": [
+                    "rmm_title.png",
+                    "rmm1.png",
+                    "rmm2.png",
+                    "rmm3.png",
+                    "rmm4.png",
+                    "rmm5.png"
+                ],
+                "description": "Ludum Dare 58 Jam Entry.\n\nThis game of marbles is for keeps! Knock your opponents’ marbles into the pit and collect new marbles with special abilities in this turn-based physics game! Features a 2-player vs. mode",
+                "dateDisplay": "October 2025",
+                "links": [
+                    {
+                        "text": "Play the game in browser here",
+                        "url": "https://zungrysoft.github.io/ld58"
+                    },
+                    {
+                        "text": "Ludum Dare Submission Page",
+                        "url": "https://ldjam.com/events/ludum-dare/58/rocky-mountain-marbles"
+                    },
+                    {
+                        "text": "GitHub Repo",
+                        "url": "https://github.com/Zungrysoft/ld58"
+                    }
+                ]
+            },
+            {
                 "title": "Girl Gossip: Revelations",
                 "images": [
                     "girlgossip_title.png",
