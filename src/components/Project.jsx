@@ -30,7 +30,7 @@ function Project({ project }) {
             </Box>
             {images && 
                 <Box sx={{ flex: 0.7, minWidth: 0, maxWidth: '100%' }}>
-                    <ProjectGallery images={images}/>
+                    <ProjectGallery images={images} aspectRatio={project.imageAspectRatio}/>
                 </Box>
             }
             

@@ -3,7 +3,7 @@ import Project from '../components/Project';
 import { useEscherDownloads } from '../context/EscherDownloadsContext';
 import { Box } from '@mui/material';
 
-function ProjectPage({ data, pageIndex }) {
+function ProjectPage({ data }) {
     const { fetchEscherDownloads } = useEscherDownloads();
 
     useEffect(() => {
@@ -15,7 +15,7 @@ function ProjectPage({ data, pageIndex }) {
             <h2 style={{ margin: '16px' }}>{data.title}</h2>
             <h4 style={{ marginBottom: '16px' }}>{data.description}</h4>
             {data.projects.map((val, index) =>
-                <Project key={`${pageIndex}_${index}`} project={val}/>
+                <Project key={`${data.urlExtension}_${index}`} project={val}/>
             )}
         </Box>
     );
