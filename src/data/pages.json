@@ -527,9 +527,15 @@
             },
             {
                 "title": "Devil Monster / The Fuse is Lit",
-                "image": "devil.png",
+                "images": [
+                    "quake_devil_3.png",
+                    "quake_devil_2.png",
+                    "quake_devil_1.png",
+                    "quake_devil_4.png",
+                    "quake_devil_5.png"
+                ],
                 "imageAspectRatio": null,
-                "description": "As my submission to the second community Modding Jam, I made a custom monster called the Devil. It is a completely original monster start-to-finish with custom modeling, animations, skinning, and AI. It was made with three design goals in mind:\n1) To pose a credible threat to the player even when it has the low ground.\n2) To be able to hit the player from unique angles, including from behind other monsters.\n3) To not chase the player directly and instead try to keep its distance.\n\nThe Fuse is Lit was the demo map I packaged in with my submission to show off the new enemy. It was designed to show off the monster's unique capabilities in a multitude of different ways while still playing like a classic Quake level should.",
+                "description": "As my submission to the second Quake community Modding Jam, I made a custom monster called the Devil. It is a completely original monster start-to-finish with custom modeling, animations, skinning, and AI. It was made with three design goals in mind:\n1) To pose a credible threat to the player even when it has the low ground.\n2) To be able to hit the player from unique angles, including from behind other monsters.\n3) To not chase the player directly and instead try to keep its distance.\n\nThe Fuse is Lit was the demo map I packaged in with my submission to show off the new enemy. It was designed to show off the monster's unique capabilities in a multitude of different ways while still playing like a classic Quake level should.",
                 "dateDisplay": "February 2022",
                 "links": [
                     {
@@ -544,7 +550,20 @@
             },
             {
                 "title": "SM216 / The Rocket Crusade",
-                "image": "rocket_crusade.png",
+                "images": [
+                    "quake_sm216_1.png",
+                    "quake_sm216_2.png",
+                    "quake_sm216_3.png",
+                    "quake_sm216_4.png",
+                    "quake_sm216_5.png",
+                    "quake_sm216_6.png",
+                    "quake_sm216_7.png",
+                    "quake_sm216_8.png",
+                    "quake_sm216_9.png",
+                    "quake_sm216_10.png",
+                    "quake_sm216_11.png",
+                    "quake_sm216_12.png"
+                ],
                 "imageAspectRatio": null,
                 "description": "I hosted the SM216 speedmap event based on an original premise: The first two days of the event were spent just making level textures, then the remainder of the event was spent making the map using only the level textures contributed in the first part. Six maps were submitted with textures made by ten people.\n\nThe map I submitted was called The Rocket Crusade. I continued my fascination with open-ended level design by making a map where you choose your own start point. The level begins with you shooting out of a cannon to land anywhere on the castle you wish. Then you must explore the castle, scrounging for powerups, weapons, and keys. The castle is gigantic and has tons of nooks and crannies to explore. I am particularly proud of the placement of the secrets, which reward the player for paying attention to the level structure and trying to access esoteric parts of the level geometry.",
                 "dateDisplay": "February 2022",
@@ -561,7 +580,17 @@
             },
             {
                 "title": "An Even Worse Place",
-                "image": "even_worse_place.png",
+                "images": [
+                    "quake_snack2_1.png",
+                    "quake_snack2_2.png",
+                    "quake_snack2_3.png",
+                    "quake_snack2_4.png",
+                    "quake_snack2_5.png",
+                    "quake_snack2_6.png",
+                    "quake_snack2_7.png",
+                    "quake_snack2_8.png",
+                    "quake_snack2_9.png"
+                ],
                 "imageAspectRatio": null,
                 "description": "Snack Pack 2 speedmap made in two days. I took inspiration from another mapmaker called Pinchy, who is known for making very open-ended and difficult maps. The design goal was to have a map that's very difficult but you learn how to navigate it better and better with each attempt.\n\nThere are several areas that you don't necessarily have to visit in order to win, but they have items you may want. It is up to the player to decide which areas are worth visiting by balancing the difficulty of those areas and the potential waste of timed powerups with the additional benefit of the items found there.",
                 "dateDisplay": "January 2022",
@@ -620,7 +649,13 @@
             },
             {
                 "title": "The Dredge Arena",
-                "image": "dredge_arena.png",
+                "images": [
+                    "quake_bulletride_1.png",
+                    "quake_bulletride_3.png",
+                    "quake_bulletride_2.png",
+                    "quake_bulletride_4.png",
+                    "quake_bulletride_5.png"
+                ],
                 "imageAspectRatio": null,
                 "description": "An attempt to bring Mario-64 Collectathon style gameplay to Quake. The Dredge Arena is the only finished map made for my scrapped Bullet Ride mod. It uses nonlinear gameplay to promote exploration through the level to find different runes. There are nine runes to find and many of them have multiple methods to obtain them.",
                 "dateDisplay": "June 2019",
@@ -729,7 +764,26 @@
         "projects": [
             {
                 "title": "Watercourse",
-                "image": "watercourse.png",
+                "images": [
+                    "tf2_watercourse_1.png",
+                    "tf2_watercourse_2.png",
+                    "tf2_watercourse_3.png",
+                    "tf2_watercourse_4.png",
+                    "tf2_watercourse_5.png",
+                    "tf2_watercourse_6.png",
+                    "tf2_watercourse_7.png",
+                    "tf2_watercourse_8.png",
+                    "tf2_watercourse_9.png",
+                    "tf2_watercourse_10.png",
+                    "tf2_watercourse_11.png",
+                    "tf2_watercourse_12.png",
+                    "tf2_watercourse_13.png",
+                    "tf2_watercourse_14.png",
+                    "tf2_watercourse_15.png",
+                    "tf2_watercourse_16.png",
+                    "tf2_watercourse_17.png",
+                    "tf2_watercourse_18.png"
+                ],
                 "imageAspectRatio": null,
                 "description": "Watercourse is a 3CP Attack/Defend map with a river running all the way through it. It takes place in a water De-Purification plant, where they squeeze out drinkable bottles of water to Re-Purify and Re-Bottle it later down the line.",
                 "dateDisplay": "November 2022 - April 2024",
