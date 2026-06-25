@@ -710,8 +710,22 @@
         "projects": [
             {
                 "title": "The Escher Dimension",
-                "image": "escher.png",
-                "imageAspectRatio": null,
+                "images": [
+                    "escher_1.png",
+                    "escher_2.png",
+                    "escher_3.png",
+                    "escher_4.png",
+                    "escher_5.png",
+                    "escher_6.png",
+                    "escher_7.png",
+                    "escher_8.png",
+                    "escher_9.png",
+                    "escher_10.png",
+                    "escher_11.png",
+                    "escher_12.png",
+                    "escher_13.png"
+                ],
+                "imageAspectRatio": "1366 / 705",
                 "description": "The Escher Dimension is a survival Complete The Monument map built into a datapack. The datapack procedurally generates sixteen dungeons for the player to explore and fight their way through. It includes custom monster designs, custom items, and a full achievement tree.\n\nI worked on this project regularly for almost a year. It is definitely the largest-scale hobby project I have ever finished.\n\nCurrently has **escher_downloads** downloads.",
                 "dateDisplay": "June 2020 - June 2021",
                 "links": [
