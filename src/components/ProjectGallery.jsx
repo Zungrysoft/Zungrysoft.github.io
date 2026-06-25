@@ -140,10 +140,14 @@ function ProjectGallery({ images, aspectRatio }) {
                     <div
                         style={{
                             position: "absolute",
-                            bottom: "12px",
-                            left: "50%",
-                            transform: "translateX(-50%)",
+                            padding: "12px",
+                            bottom: "0px",
                             display: "flex",
+                            flexWrap: "wrap",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            width: "100%",
+                            boxSizing: "border-box",
                             gap: "8px",
                             zIndex: 2,
                         }}
