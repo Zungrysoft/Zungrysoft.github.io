@@ -1,5 +1,6 @@
-import { useMediaQuery, useTheme } from "@mui/material";
+import { useMediaQuery, useTheme as useThemeMui } from "@mui/material";
 import { useState } from "react";
+import { useTheme } from "../helpers/theme";
 
 const imagesContext = require.context("../../public/images", true);
 
@@ -18,7 +19,8 @@ function getImage(str) {
 }
 
 function ProjectGallery({ images, aspectRatio }) {
-    const theme = useTheme();
+    const { colorBackgroundDarker } = useTheme();
+    const theme = useThemeMui();
     const isCompact = useMediaQuery(theme.breakpoints.down("sm"));
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,7 +49,7 @@ function ProjectGallery({ images, aspectRatio }) {
               aspectRatio,
               position: "relative",
               overflow: "hidden",
-              background: "black",
+              background: colorBackgroundDarker,
           }
         : {
               width: "100%",
