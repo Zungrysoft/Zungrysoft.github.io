@@ -14,6 +14,7 @@ export default function NavTabs({ tabs = [], isVertical=false, requireExactUrlMa
     },
     tabBar: {
       display: "flex",
+      flexWrap: "wrap",
       flexDirection: isVertical ? 'column' : 'row',
       width: "100%",
       justifyContent: "center",
@@ -22,7 +23,7 @@ export default function NavTabs({ tabs = [], isVertical=false, requireExactUrlMa
       flex: 1,
       textAlign: 'center',
       textDecoration: 'none',
-      padding: "12px",
+      padding: "8px",
       fontSize: "12px",
       fontWeight: "bold",
       cursor: isActive ? "auto" : "pointer",
